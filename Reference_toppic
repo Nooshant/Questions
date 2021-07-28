@@ -1,0 +1,52 @@
+Questions:
+
+• Spring Boot Application Custom Exception Handling
+• Multiple nodes configuration in the cloud environment for SBA deployment
+• JPA filtering for data retrieval
+• Database configuration in the SBA
+• Serialization and Externalization in SBA
+• k8s questions
+• Sum of two numbers closest to zero in a Array of integers (both negative and positive numbers)
+• Throwing an Custom exception from the main class and catching it in catch block 
+find the hierarchy of execution of that custom exception class
+• What is Normalization in DBMS (SQL)? 1NF, 2NF, 3NF, BCNF.
+• CountDownLatch
+• CustomTheadPoolExecutor
+• Reentrant lock
+• Using multiple databases in a single transaction
+
+https://learning.oreilly.com/videos/master-microservices-with/9781789132779/9781789132779-video6_20/
+
+
+• ConcurrentHashMap working and implementation
+• DeepCopy and Swallow Copy https://www.edureka.co/blog/shallow-and-deep-copy-java/
+• Predicate, Consumer, Producer, Stream, Date, MetaSpace replacement of PermSpace
+• GroupBy in java 8
+• Static synchronized in static Synchronized ?
+• Callable, Future, CountDownLatch
+• How to make a class immutable  which have Employee and Address class as attribute.
+public class Employee{
+    private int id;
+    private Address address;
+
+From <https://stackoverflow.com/questions/34109363/how-can-we-maintain-immutability-of-a-class-with-a-mutable-reference> 
+
+* Object level and Class level locks in Java  From <https://www.geeksforgeeks.org/object-level-class-level-lock-java/> 
+
+• ThreadpoolExecutor and CachedThreadPool
+
+From <https://stackoverflow.com/questions/17957382/fixedthreadpool-vs-cachedthreadpool-the-lesser-of-two-evils> 
+https://stackoverflow.com/questions/3718148/java-class-level-lock-vs-object-level-lock
+How to set an ideal thread pool size
+
+From <https://engineering.zalando.com/posts/2019/04/how-to-set-an-ideal-thread-pool-size.html> 
+
+Number of threads = Number of Available Cores * Target CPU utilization * (1 + Wait time / Service time)
+
+From <https://engineering.zalando.com/posts/2019/04/how-to-set-an-ideal-thread-pool-size.html> 
+
+* What are the different types of dependency injection in Spring?
+
+From <https://www.google.com/search?q=dependency+injection+in+spring&rlz=1C1GCEU_enIN907IN907&oq=dependency+in&aqs=chrome.1.0i433j0j0i433l2j0j69i57j69i60l2.12176j0j7&sourceid=chrome&ie=UTF-8> 
+
+• flatMap and map in java 8
