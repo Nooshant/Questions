@@ -57,6 +57,32 @@ words.stream()
      .collect(toList());
 ```
 
+# SQL
+ 
+**1.What is the ACID property in a database?**
+The full form of ACID is Atomicity, Consistency, Isolation, and Durability. To check the reliability of the transactions, ACID properties are used.
 
+- Atomicity refers to completed or failed transactions, where transaction refers to a single logical operation on data. This implies that if any 
+ aspect of a transaction fails, the whole transaction fails and the database state remains unchanged.
+- Consistency means that the data meets all of the validity guidelines. The transaction never leaves the database without finishing its state.
+- Concurrency management is the primary objective of isolation.
+- Durability ensures that once a transaction is committed, it will occur regardless of what happens in between, such as a power outage, a fire, 
+ or some other kind of disturbance.
+ 
+ 
+ **2. Write SQL query to find the 3rd highest salary from a table without using the TOP/limit keyword.**
+
+```
+ SELECT Salary
+FROM EmployeeSalary Emp1
+WHERE 2 = (
+                SELECT COUNT( DISTINCT ( Emp2.Salary ) )
+                FROM EmployeeSalary Emp2
+                WHERE Emp2.Salary > Emp1.Salary
+            )
+ ```
+ 
+ 
+ 
 
 
