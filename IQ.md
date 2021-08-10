@@ -126,3 +126,5 @@ https://www.geeksforgeeks.org/comparator-interface-java/
 - Print even and Odd using two thread.
 - How recursion work
 - How to reverse any number without using any datastruture
+- How to select database for any application
+- Diff between mongoDb and oracle
