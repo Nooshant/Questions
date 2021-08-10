@@ -120,3 +120,17 @@ Point:
 
 - Synchronized locks does not offer any mechanism of waiting queue in which after the execution of one thread any thread running in parallel can acquire the lock. Due to which the thread which is there in the system and running for a longer period of time never gets chance to access the shared resource thus leading to starvation.
 - Reentrant locks are very much flexible and has a fairness policy in which if a thread is waiting for a longer time and after the completion of the currently executing thread we can make sure that the longer waiting thread gets the chance of accessing the shared resource hereby decreasing the throughput of the system and making it more time consuming.
+
+- Write a program in java to compare Two employee objects (e1,e2) based on its name and age
+If name is same, consider age for comparision
+https://www.geeksforgeeks.org/comparator-interface-java/
+	
+- concurrency vs parallelism
+- Create deadlock
+- minorGC vs MajorGC
+- How GC work
+- Design MakeMyTrip database
+- Design BookMyShow
+- Print even and Odd using two thread.
+- How recursion work
+- How to reverse any number without using any datastruture
