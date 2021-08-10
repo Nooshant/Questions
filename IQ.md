@@ -113,14 +113,6 @@ https://docs.spring.io/spring-framework/docs/3.0.x/spring-framework-reference/ht
 - Design a Branch and Bank schemas and Table. At the end, write a query to fetch all the Bank using IFSC code.
 - Count equals sum from array DP problem
 - Matrix related problem
-
-
-
-Point:
-
-- Synchronized locks does not offer any mechanism of waiting queue in which after the execution of one thread any thread running in parallel can acquire the lock. Due to which the thread which is there in the system and running for a longer period of time never gets chance to access the shared resource thus leading to starvation.
-- Reentrant locks are very much flexible and has a fairness policy in which if a thread is waiting for a longer time and after the completion of the currently executing thread we can make sure that the longer waiting thread gets the chance of accessing the shared resource hereby decreasing the throughput of the system and making it more time consuming.
-
 - Write a program in java to compare Two employee objects (e1,e2) based on its name and age
 If name is same, consider age for comparision
 https://www.geeksforgeeks.org/comparator-interface-java/
