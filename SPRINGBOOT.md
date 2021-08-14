@@ -131,3 +131,6 @@ server.port=8888
 
 spring.cloud.config.server.git.uri=file:///C:/Users/thakurde/mircoservices/git-localconfig-repo/
 ```
+
+
+**https://www.java4s.com/web-services/restful-web-services-jax-rs-formparam-example/#:~:text=By%20using%20%40FormParam%20annotation,would%20be%20the%20best%20choice.**
