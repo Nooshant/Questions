@@ -141,6 +141,7 @@ https://www.geeksforgeeks.org/comparator-interface-java/
 - Apart from first Level cache and second, can we use other cache.
 - What is the need of microservices.
 - What is lambda ?
+- How many cache ? and Can we have external cache ?
 	
 # NETWEST
 
@@ -162,3 +163,4 @@ https://www.geeksforgeeks.org/comparator-interface-java/
 - Singleton class and Immutable class
 - What is reentrant Lock.
 - When to use Runnable and Callable.
+- How token is validated in application whether it's a valid or invalid.
