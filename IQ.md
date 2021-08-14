@@ -128,3 +128,15 @@ https://www.geeksforgeeks.org/comparator-interface-java/
 - How to reverse any number without using any datastruture
 - How to select database for any application
 - Diff between mongoDb and oracle
+
+# Fidelity
+	
+- How does application store user login
+- What is the token and (who)how does application generate it.
+- How to deploy the Microservices.
+- What is require dependency to start the microservices.
+- richardson api maturity model
+- Hateos concept
+- Apart from first Level cache and second, can we use other cache.
+- What is the need of microservices.
+- What is lambda ?
