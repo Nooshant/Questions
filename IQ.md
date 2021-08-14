@@ -160,5 +160,4 @@ https://www.geeksforgeeks.org/comparator-interface-java/
 - What is the need of ENUM.
 - Singleton class and Immutable class
 - What is reentrant Lock.
-- 
-- 
+- When to use Runnable and Callable.
