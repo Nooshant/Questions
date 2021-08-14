@@ -250,3 +250,4 @@ public interface Executor {
 }
 ```
 
+- What is REST Api and difference between REST and SOAP ?
