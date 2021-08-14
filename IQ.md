@@ -97,6 +97,7 @@ https://docs.spring.io/spring-framework/docs/3.0.x/spring-framework-reference/ht
 - Annotation in JPA
 - Difference in JPA and Hibernate
 - @Qualifier use
+- @Primary vs @Qualifier
 - Use of hashcode and equals method
 - Atomicity and .. In sql
 - All the mapping name in JPA
