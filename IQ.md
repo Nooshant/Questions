@@ -140,3 +140,25 @@ https://www.geeksforgeeks.org/comparator-interface-java/
 - Apart from first Level cache and second, can we use other cache.
 - What is the need of microservices.
 - What is lambda ?
+	
+# NETWEST
+
+- Callable vs Throwable
+- what is BigDecimal
+- What is difference between Spring and Springboot
+- How springboot work internally.
+- How parent maven is inherited by all the sub-Child maven.
+- ConcurrentModification exception and in build collection for that.
+- Fail-fast and fail-safe
+- How to prevent ConcurrentModificationException
+- Wrapper class and need of it.
+- what to use int or Integer while declaring the variable
+- What is the need and what is String constant pool
+- String str = new String("abc"); How many object will be created
+- WeakHashMap when to use
+- Weak reference and ... reference ?
+- What is the need of ENUM.
+- Singleton class and Immutable class
+- What is reentrant Lock.
+- 
+- 
