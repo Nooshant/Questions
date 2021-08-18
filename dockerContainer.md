@@ -36,10 +36,22 @@ Command to run the containerized application on particular VM port:
 
 We can run multiple container from same image but in different port.
 
+- docker container run -p 8080:5000 <image-name>
 - docker images -> To list all the image in the docker repositary
 - docker container ls -> To list all the container image running and stopped both.
 - docker logs <docker-image-id>
 - docker container stop <container_id> -> Container_id from command docker container ls
+- docker tag <image-name> <to-new-image-name> -> create new image with new img-id with same image content
+- docker compose down -> Stop and remove containers, networks
+- docker pull <img-name> -> just download the image not run the image
+- docker image history <image-id> -> provide all the details of image like.. env, creation, file, config
+- docker container pause <img-id>
+- docker container unpause <img-id>
+- docker events
+- docker stats -> hardware and cpu pIDs info
+- docker system df
+- 
+-  
 
 
 # Docker Architecture
