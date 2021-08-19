@@ -143,3 +143,30 @@ public class PriorityQueueDemo {
 
 
 Employee class must be comparable either using COMPARATOR or COMPARABLE otherwise classCastException because Employee class is not comparable by default.
+
+# ENUM use ?
+
+Use static final constants when you want to define a **singular** constant value.
+```
+public class PhysicsConstants{ 
+    public static final float GRAVITY = 9.81f; 
+} 
+```
+In this case the only possible value for the gravity in this application would be the earth gravity.
+Suppose you want to allow several values for gravity, use an enum:
+
+```
+public enum Gravity { 
+ 
+    Earth(9.81f), Mars(3.8f), Moon(1.622f); 
+    private float gravity; 
+ 
+    private Gravity(float gravity) { 
+        this.gravity = gravity; 
+    } 
+ 
+    public float getGravity() { 
+        return gravity; 
+    } 
+} 
+```
