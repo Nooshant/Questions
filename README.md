@@ -18,7 +18,7 @@ Extention of functional Method
  The consumer interface accepts one argument but there is no return value.
   The name of function inside this interface is `accept`
   
-  ``https://dzone.com/articles/functional-interface-explained-in-detail-introduce``
+  https://dzone.com/articles/functional-interface-explained-in-detail-introduce
  
 
 # Default Method
