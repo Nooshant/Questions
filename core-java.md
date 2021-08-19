@@ -170,3 +170,8 @@ public enum Gravity {
     } 
 } 
 ```
+- Enum constructor must be always private
+- Enums can implement any interface and override methods
+- Enum in java implicitly implement both Serializable and Comparable interface
+- Abstact methods can be implemented in Enums can provide different implementations for different Enum constants
+- We can create a list directly from the Enum constants using the values() method
