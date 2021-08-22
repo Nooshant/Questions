@@ -3,10 +3,10 @@
 - can have multiple default methods
 
 There are 4 Funtional Method
-1. Consumer
-2. Predicate
+1. Consumer https://java2blog.com/java-8-consumer-example/
+2. Predicate https://java2blog.com/java-8-predicate-examples/
 3. Function
-4. Supplier
+4. Supplier https://java2blog.com/java-8-supplier-example/
 
 Extention of functional Method
 
