@@ -175,3 +175,91 @@ public enum Gravity {
 - Enum in java implicitly implement both Serializable and Comparable interface
 - Abstact methods can be implemented in Enums can provide different implementations for different Enum constants
 - We can create a list directly from the Enum constants using the values() method
+
+# Runnable Vs Callable
+```
+
+Purpose of these interfaces from oracle documentation :
+
+Runnable interface should be implemented by any class whose instances are intended to be executed by a Thread.
+The class must define a method of no arguments called run.
+
+Callable: A task that returns a result and may throw an exception.
+Implementors define a single method with no arguments called call.
+The Callable interface is similar to Runnable, in that both are designed for 
+classes whose instances are potentially executed by another thread. 
+A Runnable, however, does not return a result and cannot throw a checked exception.
+
+Other differences:
+
+You can pass Runnable to create a Thread. But you can't create new Thread by passing Callable as parameter.
+You can pass Callable only to ExecutorService instances.
+
+Example:
+
+public class HelloRunnable implements Runnable {
+
+    public void run() {
+        System.out.println("Hello from a thread!");
+    }   
+
+    public static void main(String args[]) {
+        (new Thread(new HelloRunnable())).start();
+    }
+
+}
+Use Runnable for fire and forget calls. Use Callable to verify the result.
+
+Callable can be passed to invokeAll method unlike Runnable. Methods invokeAny and invokeAll perform
+the most commonly useful forms of bulk execution, executing a collection of tasks and then waiting 
+for at least one, or all, to complete
+
+Trivial difference : method name to be implemented => run() for Runnable and call() for Callable.
+```	
+	
+
+- How token is validated in application whether it's a valid or invalid.
+- List of functional Interface
+```
+//Runnable
+interface Runnable {
+    void run();
+}
+
+//Action - throws exception
+interface Action {
+    void run() throws Exception;
+}
+
+//Consumer - consumes a value/values, throws exception
+interface Consumer1<T> {
+    void accept(T t) throws Exception;
+}
+
+//Callable - return result, throws exception
+interface Callable<R> {
+    R call() throws Exception;
+}
+
+//Supplier - returns result, throws exception
+interface Supplier<R> {
+    R get() throws Exception;
+}
+
+//Predicate - consumes a value/values, returns true or false, throws exception
+interface Predicate1<T> {
+    boolean test(T t) throws Exception;
+}
+
+//Function - consumes a value/values, returns result, throws exception
+public interface Function1<T, R> {
+    R apply(T t) throws Exception;
+}
+
+...
+
+//Executor
+public interface Executor {
+    void execute(Runnable command);
+}
+```
