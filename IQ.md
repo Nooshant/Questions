@@ -120,8 +120,8 @@ https://www.geeksforgeeks.org/comparator-interface-java/
 	
 - concurrency vs parallelism
 - Create deadlock
-- minorGC vs MajorGC
-- How GC work
+- minorGC vs MajorGC  https://dzone.com/articles/minor-gc-vs-major-gc-vs-full
+- How GC work   https://stackify.com/what-is-java-garbage-collection/
 - Design MakeMyTrip database
 - Design BookMyShow
 - Print even and Odd using two thread.
