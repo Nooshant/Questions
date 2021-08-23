@@ -82,7 +82,7 @@ WHERE 2 = (
             )
  ```
  
- 
+ For more info... https://www.geeksforgeeks.org/sql-query-to-find-second-largest-salary/
  
 
 
