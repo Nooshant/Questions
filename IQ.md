@@ -1,5 +1,7 @@
-# LINK
-https://java2blog.com/spring-interview-questions-and-answers/
+# LINKS
+- https://java2blog.com/spring-interview-questions-and-answers/
+
+- https://java2blog.com/hibernate-interview-questions-and-answers/
 
 
 # Questions:
