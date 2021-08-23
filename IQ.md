@@ -3,6 +3,8 @@
 
 - https://java2blog.com/hibernate-interview-questions-and-answers/
 
+- https://www.geeksforgeeks.org/java-singleton-design-pattern-practices-examples/
+- 
 
 # Questions:
 
