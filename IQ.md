@@ -59,7 +59,7 @@ From <https://www.google.com/search?q=dependency+injection+in+spring&rlz=1C1GCEU
 - Find the common number from three array
 - How to call the one microservice to another microcservices.
 - How to secure the rest API
-- Qualifier in spring
+- Qualifier in spring https://jstobigdata.com/spring/fine-tune-auto-wiring-using-primary-and-qualifier/
 - FuntionalInterface with example
 - Default method in FunctionalInterface
 - @configuration  https://stackoverflow.com/questions/24014919/understanding-spring-configuration-class
@@ -97,7 +97,7 @@ https://docs.spring.io/spring-framework/docs/3.0.x/spring-framework-reference/ht
 - Annotation in JPA
 - Difference in JPA and Hibernate
 - @Qualifier use
-- @Primary vs @Qualifier
+- @Primary vs @Qualifier https://jstobigdata.com/spring/fine-tune-auto-wiring-using-primary-and-qualifier/
 - Use of hashcode and equals method
 - Atomicity and .. In sql
 - All the mapping name in JPA
