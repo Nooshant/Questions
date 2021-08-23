@@ -4,7 +4,7 @@
 - https://java2blog.com/hibernate-interview-questions-and-answers/
 
 - https://www.geeksforgeeks.org/java-singleton-design-pattern-practices-examples/
-- 
+- https://www.journaldev.com/1377/java-singleton-design-pattern-best-practices-examples  (BEST)
 
 # Questions:
 
