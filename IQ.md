@@ -62,7 +62,7 @@ public class NestedStaticSyncDemo {
 	}
 }
  ```
-- Callable, Future, CountDownLatch
+- Callable, Future, CountDownLatch https://www.geeksforgeeks.org/callable-future-java/ 
 - How to make a class immutable  which have Employee and Address class as attribute.
 ```
 public class Employee{
