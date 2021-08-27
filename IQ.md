@@ -204,3 +204,10 @@ https://www.geeksforgeeks.org/comparator-interface-java/
 - What is reentrant Lock.
 - When to use Runnable and Callable.
 - What is REST Api and difference between REST and SOAP ?
+- Min no. of swaps to sort the array
+- Create Deadlock in java
+- Jboss folder structure
+- How to do packaging using jboss
+- Log4j configuration
+- Print Alphabet and number using two thread. a1b2c3d4......
+
