@@ -30,6 +30,38 @@ https://learning.oreilly.com/videos/master-microservices-with/9781789132779/9781
 - Predicate, Consumer, Producer, Stream, Date, MetaSpace replacement of PermSpace
 - GroupBy in java 8
 - Static synchronized in static Synchronized ?
+ ```
+ class Sample
+{
+	public static void m1() {
+		synchronized (Sample.class) {
+			System.out.println("m1.... "+Thread.currentThread().getName());
+			m2();
+		}
+	}
+
+	public static void m2() {
+		synchronized (Sample.class) {
+			System.out.println("m2.... "+Thread.currentThread().getName());
+		}
+	}
+}
+
+
+public class NestedStaticSyncDemo {
+	public static void main(String[] args) {
+		
+		new Thread(()->{
+			Sample.m1();
+		}).start();
+		
+		new Thread(()->{
+			Sample.m1();
+		}).start();
+		
+	}
+}
+ ```
 - Callable, Future, CountDownLatch
 - How to make a class immutable  which have Employee and Address class as attribute.
 ```
