@@ -170,7 +170,7 @@ https://www.geeksforgeeks.org/comparator-interface-java/
 - How to select database for any application
 - Diff between mongoDb and oracle
 
-# Fidelity
+# F...y
 	
 - How does application store user login
 - What is the token and (who)how does application generate it.
@@ -183,7 +183,7 @@ https://www.geeksforgeeks.org/comparator-interface-java/
 - What is lambda ?
 - How many cache ? and Can we have external cache ?
 	
-# NETWEST
+# N...T
 
 - Callable vs Throwable
 - what is BigDecimal
