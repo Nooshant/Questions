@@ -9,6 +9,25 @@
 # Questions:
 
 - Spring Boot Application Custom Exception Handling
+  ```
+@ControllerAdvice
+@RestController
+public class CustomizedResponseEntityExceptionHandler extends ResponseEntityExceptionHandler {
+	
+	
+	@ExceptionHandler(Exception.class)
+	public final ResponseEntity<Object> handleAllException(Exception ex, WebRequest request) {
+		ExceptionResponse response = new ExceptionResponse(new Date(), ex.getMessage(), request.getDescription(false));
+		return new ResponseEntity<Object>(response, HttpStatus.INTERNAL_SERVER_ERROR);
+	}
+
+	@ExceptionHandler(UserNotFoundException.class)
+	public final ResponseEntity<Object> handleUserNotFoundException(UserNotFoundException ex, WebRequest request) {
+		ExceptionResponse response = new ExceptionResponse(new Date(), ex.getMessage(), request.getDescription(false));
+		return new ResponseEntity<Object>(response, HttpStatus.NOT_FOUND);
+	}
+}
+  ```
 - Multiple nodes configuration in the cloud environment for SBA deployment
 - JPA filtering for data retrieval
 - Database configuration in the SBA
@@ -149,7 +168,7 @@ https://docs.spring.io/spring-framework/docs/3.0.x/spring-framework-reference/ht
 - Common problem in Serialization
 - Deadlock and Race Condition
 - How to create Schemas
--  What is cache and how many cache are there in hibernate? Explain when to use which one.
+- What is cache and how many cache are there in hibernate? Explain when to use which one.
 - Design a Branch and Bank schemas and Table. At the end, write a query to fetch all the Bank using IFSC code.
 - Count equals sum from array DP problem
 - Matrix related problem
