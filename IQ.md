@@ -9,7 +9,8 @@
 # Questions:
 
 - Spring Boot Application Custom Exception Handling
-  ```
+  
+```
 @ControllerAdvice
 @RestController
 public class CustomizedResponseEntityExceptionHandler extends ResponseEntityExceptionHandler {
@@ -27,7 +28,8 @@ public class CustomizedResponseEntityExceptionHandler extends ResponseEntityExce
 		return new ResponseEntity<Object>(response, HttpStatus.NOT_FOUND);
 	}
 }
-  ```
+```
+
 - Multiple nodes configuration in the cloud environment for SBA deployment
 - JPA filtering for data retrieval
 - Database configuration in the SBA
