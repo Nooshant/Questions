@@ -1,30 +1,67 @@
+**Note:** *-> solution exist in repo, %-> refer DS book
+
 # STRING
 
 - Longest Palindromic Substring Problem
-- Reverse text without reversing individual words
-- Palindromic Substrings
+- Reverse text without reversing individual words %356
+- Palindromic Substrings *
+- Find the smallest window in a string containing all characters of another string %358
+- Combination of String %358
 
 
 # ARRAY
 
-- Sliding Window Maximum
+- Maximum sum in Sliding Window
 - Trapping Rain Water
 - Target Sum
 - Best Time to Buy and Sell Stock
 - Majority Element
-- Permutations
+- Permutations *
 - Rotate Image
 - Coin Change
-- Daily Temperatures
+- Daily Temperatures *
 - First Missing Positive
 - Largest Sum Contiguous Subarray
 - Leaders in an array
 - Maximum path sum in matrix
+- Search number in sorted rotated array
+- Merged k-sorted list %
+- Nuts and Bolts problem
+- Find two elements closest to zero %311
+- Find three elements closest to zero %311
+- Maximum difference between two elements(smallest appear before largest) %311
+- Maximum profit from stock buy sell %
 
+# QUEUE
+- Stack using heap
+- Queue using heap
 
 # HASHTABLE
-
 - LRU Cache
+
+# STACK
+- Largest Rectangular Area in a Histogram
+- Stock span
+- getMin using function O(1)
+
+# TREE
+- Inorder, Postorder, Preorder non-recursive
+- Size of binary tree
+- Level order in reverse order (from bottom to top)
+- Height of binary tree
+- Minimum depth of binary tree
+- Deepest node of binary tree
+- Find all node has only one child
+- Check if two binary tree are structurally identical.
+- Diameter of binary tree
+- Check for existence of path sum
+- Mirror image of binary tree
+- Construct binary tree from given inorder and preorder traversals.
+- Zig-Zag of binary tree
+- Find LCA of any node
+- Finding vertical sum of a binary tree
+- Diagonal traversal of binary tree
+
 
 # From DBs
 
@@ -54,7 +91,7 @@ Round 1:
 1)Design Login feature of website and how you can make user loged  in even after closing browser.
 2)Jvm architecture of the program and and how permspace come in picture.
 3) Diagonal traversal of binary tree
-4) 13245- - >12345
+4) 13245- - >12345 (solve using selection sort)
 Minimum number of swap
 5)List =new arraylist
 What is motto behind creating object with list not array list
