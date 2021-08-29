@@ -88,8 +88,7 @@ Number of threads = Number of Available Cores * Target CPU utilization * (1 + Wa
 From <https://engineering.zalando.com/posts/2019/04/how-to-set-an-ideal-thread-pool-size.html> 
 
 - What are the different types of dependency injection in Spring?
-
-From <https://www.google.com/search?q=dependency+injection+in+spring&rlz=1C1GCEU_enIN907IN907&oq=dependency+in&aqs=chrome.1.0i433j0j0i433l2j0j69i57j69i60l2.12176j0j7&sourceid=chrome&ie=UTF-8> 
+https://jstobigdata.com/spring/inversion-of-control-and-dependency-injection-in-spring/
 
 - flatMap and map in java 8
 - Create a query to fetch count of employee from each city.(hint GroupBy)
