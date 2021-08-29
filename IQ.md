@@ -28,6 +28,12 @@ public class CustomizedResponseEntityExceptionHandler extends ResponseEntityExce
 		return new ResponseEntity<Object>(response, HttpStatus.NOT_FOUND);
 	}
 }
+// ExceptionResponse is custom model class
+public class ExceptionResponse {
+	private Date timestamp;
+	private String message;
+	private String details;
+}
 ```
 
 - Multiple nodes configuration in the cloud environment for SBA deployment
