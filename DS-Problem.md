@@ -63,7 +63,7 @@
 - Diagonal traversal of binary tree
 
 
-# From DBs
+# From Dhanajay
 
 - longest palindrome in a string
 - program to find the modulus of two number using substraction
@@ -88,24 +88,24 @@
 - Company Name Licious :
 
 Round 1:
-1)Design Login feature of website and how you can make user loged  in even after closing browser.
-2)Jvm architecture of the program and and how permspace come in picture.
-3) Diagonal traversal of binary tree
-4) 13245- - >12345 (solve using selection sort)
+- Design Login feature of website and how you can make user loged  in even after closing browser.
+- Jvm architecture of the program and and how permspace come in picture.
+- Diagonal traversal of binary tree
+- 13245- - >12345 (solve using selection sort)
 Minimum number of swap
-5)List =new arraylist
+- List =new arraylist
 What is motto behind creating object with list not array list
-6)Project discussion
-7)how you can decrease excecution timing of the SQL script .
+- Project discussion
+- how you can decrease excecution timing of the SQL script .
 
 Round 2:
-1) Discussion on project 
-2) Series of street light is there is one light was off next consecutive light will get off how you will find the point of bulb is off
-3) Maximum sum of the level of the tree
-4) Balance pranethesis {}() this not valid {()} this is valid like json formate.
-5) Maximum subarray sum in the array .
-6) Linked list rotation.
-7) find the all missing number in the given range of the array .
+- Discussion on project 
+- Series of street light is there is one light was off next consecutive light will get off how you will find the point of bulb is off
+- Maximum sum of the level of the tree
+- Balance pranethesis {}() this not valid {()} this is valid like json formate.
+- Maximum subarray sum in the array .
+- Linked list rotation.
+- find the all missing number in the given range of the array .
 
 Round 3
 - Design book my show intenvory structure like 4 screen are there how you will manage these things.
@@ -131,7 +131,7 @@ suppose you have the sun some of the configuration are same and some of the conf
 - How does the thread poll woks
 - How do you know the status of the worker thread .
 - Oauth feature implemention in my project
--  Java Basics on Threads and concuurrency.
+- Java Basics on Threads and concuurrency.
 - Write code for it
 - Exam why concuurrency ??
 - Basic idea behind it
@@ -141,11 +141,11 @@ suppose you have the sun some of the configuration are same and some of the conf
 - Lending Kart
 - Implementing a generic rate limiter
 - Coffebean
--  Explain how you implement paging in your project .
--  Go deep drive in architecture of the project.
--  Coin change problem.
--  Lru cache implementation.
--  Two threadpool is there how to execute thread from the first pool then thread from second poll.
+- Explain how you implement paging in your project .
+- Go deep drive in architecture of the project.
+- Coin change problem.
+- Lru cache implementation.
+- Two threadpool is there how to execute thread from the first pool then thread from second poll.
 
 - Implement arrayblocking queue but when queue is full dump the data in some place and make queue empty do code for this
 Asked alot of things about threads.
