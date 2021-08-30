@@ -230,6 +230,16 @@ https://www.geeksforgeeks.org/comparator-interface-java/
 - What is reentrant Lock.
 - When to use Runnable and Callable.
 - What is REST Api and difference between REST and SOAP ?
+	![image](https://user-images.githubusercontent.com/29571875/131291504-ac37c1e2-08e6-46ac-b8eb-398a407663fd.png)
+	
+	Request itself provide information about business logic
+	Standard response code for each call.
+	
+	
+	![image](https://user-images.githubusercontent.com/29571875/131291803-08a2cae3-97fd-4be8-8889-25d3bf647a21.png)
+	It is more secure than REST since whole envelope is encrypted.
+	It has custom type of response code, means developer has to decide.
+
 - Min no. of swaps to sort the array
 - Create Deadlock in java
 - Jboss folder structure
