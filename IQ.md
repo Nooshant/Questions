@@ -236,4 +236,6 @@ https://www.geeksforgeeks.org/comparator-interface-java/
 - How to do packaging using jboss
 - Log4j configuration
 - Print Alphabet and number using two thread. a1b2c3d4......
+- Springboot support which all embedded server ?
+	- Spring Boot supports Tomcat, Undertow, and Jetty as embedded servers.
 
