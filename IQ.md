@@ -66,6 +66,15 @@ https://learning.oreilly.com/videos/master-microservices-with/9781789132779/9781
 - DeepCopy and Swallow Copy https://www.edureka.co/blog/shallow-and-deep-copy-java/
 - Predicate, Consumer, Producer, Stream, Date, MetaSpace replacement of PermSpace
 - GroupBy in java 8
+  ```
+  		List < Employee > employees = Arrays.asList(
+				   new Employee(1, 10, "Chandra"), new Employee(1, 20, "Rajesh"),
+				   new Employee(1, 30, "Rahul"), new Employee(1, 20, "Ramana"),  new Employee(1, 25, "Ramana"));
+		
+		
+		Map<Integer, List<Employee>> groupByname = employees.stream().collect(Collectors.groupingBy(Employee::getDepartment));
+  ```
+  
 - Static synchronized in static Synchronized ?
  ```
  class Sample
