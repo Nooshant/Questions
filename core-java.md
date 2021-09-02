@@ -263,3 +263,32 @@ public interface Executor {
     void execute(Runnable command);
 }
 ```
+
+	- Comparator using Java-7 and Java-8
+	
+```
+/**** Anonymous Class (Old Way) ****/
+        Comparator<Employee> comparator1 = new Comparator<Employee>() {
+            @Override
+            public int compare(Employee emp1, Employee emp2) {
+                return new Integer(emp1.getAge()).compareTo(new Integer(emp2.getAge()));
+            }
+        };
+ 
+        /*** Sorting the Employee List Using Comparator By Age ****/
+        Collections.sort(employeeList1, comparator1);
+        System.out.println("-------------After Sorting list Using Anonymous Class-------------");
+        System.out.println(employeeList1);
+ 
+        List<Employee> employeeList2 = getEmployees();
+ 
+        /**** Lambda Expression from Java8 ****/
+        Comparator<Employee> comparator2 = (emp1, emp2) -> {
+            return new Integer(emp1.getAge()).compareTo(new Integer(emp2.getAge()));
+        };
+ 
+        /*** Sorting the Employee List Using Comparator By Age ****/
+        Collections.sort(employeeList2, comparator2);
+        System.out.println("---------------After Sorting List Using Lambda Expression From Java8--------------");
+        System.out.println(employeeList2);
+```
