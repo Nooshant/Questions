@@ -274,5 +274,9 @@ configuration metadata from XML, Java annotations, and/or Java code in the confi
 - What is Atomic in Thread.
 - What is ThreadLocal
 - ConcurrentHashMap working like how many write operation can be performed parallel.
-- ReentrantWriteLock and ReentrantReadLock
+- ReentrantWriteLock and ReentrantReadLock how does it work have sample code to see is there any problem in that.
 - what is newCachedThreadPool() and what will happen if it has created 10 more thread based on load and when the load decreases what happens with this thread.
+- Creational Design pattern
+- create a singleton using Enum have two method, show the implementation 
+- How to create Immutable class have two class
+
