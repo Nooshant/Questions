@@ -284,3 +284,9 @@ configuration metadata from XML, Java annotations, and/or Java code in the confi
 - what will happen if the loading jar size during runtime is larger than Metaspace(considering the max of RAM size)
 - Shutdown vs ShutdownNow method difference
 - Optional in Java-8
+- Requirement
+     - Have 5 doors and single key for all these door.
+     - Many people has to open the door waiting
+     - It may be chance that one could take the key to open door and took more time.
+     - How would you handle that people waiting for key should not wait for long.
+     - Design this requirement.
