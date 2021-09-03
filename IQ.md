@@ -282,4 +282,5 @@ configuration metadata from XML, Java annotations, and/or Java code in the confi
 - create a singleton using Enum have two method, show the implementation 
 - How to create Immutable class have two class Employee and it has Address as another field as object.
 - what will happen if the loading jar size during runtime is larger than Metaspace(considering the max of RAM size)
-
+- Shutdown vs ShutdownNow method difference
+- Optional in Java-8
