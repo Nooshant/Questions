@@ -290,3 +290,7 @@ configuration metadata from XML, Java annotations, and/or Java code in the confi
      - It may be chance that one could take the key to open door and took more time.
      - How would you handle that people waiting for key should not wait for long.
      - Design this requirement.
+- what is race condition, why does it occur. How can you handle it. 
+- How to find the issue that it is cause of race Condition
+- How to create thread dump and verify in log that it has because of race condition.
+
