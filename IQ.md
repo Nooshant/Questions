@@ -274,7 +274,7 @@ configuration metadata from XML, Java annotations, and/or Java code in the confi
 - how to design microservices and before implementation
 - What is Atomic in Thread.
 - What is ThreadLocal
-- ConcurrentHashMap working like how many write operation can be performed parallel.
+- ConcurrentHashMap working like how many write operation can be performed parallel. https://itsromiljain.medium.com/curious-case-of-concurrenthashmap-90249632d335
 - ReentrantWriteLock and ReentrantReadLock how does it work have sample code to see is there any problem in that.
 	- https://github.com/Nooshant/README-IQ/blob/main/sampleCode.md
 - what is newCachedThreadPool() and what will happen if it has created 10 more thread based on load and when the load decreases what happens with this thread.
