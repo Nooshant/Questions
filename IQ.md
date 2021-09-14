@@ -285,6 +285,10 @@ configuration metadata from XML, Java annotations, and/or Java code in the confi
 - How to create Immutable class have two class Employee and it has Address as another field as object. http://adnjavainterview.blogspot.com/2019/06/how-to-create-custom-immutable-class-with-mutable-object-reference-injava.html
 - what will happen if the loading jar size during runtime is larger than Metaspace(considering the max of RAM size)
 - Shutdown vs ShutdownNow method difference
+	```
+	shutdown() initiates an orderly shutdown in which previously submitted tasks are executed, but no new tasks will be accepted. 
+	... shutdownNow() attempts to stop all actively executing tasks, halts the processing of waiting tasks, and returns a list of the tasks that were awaiting execution.
+	```
 - Optional in Java-8
 - Requirement
      - Have 5 doors and single key for all these door.
