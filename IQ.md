@@ -268,8 +268,10 @@ https://www.geeksforgeeks.org/comparator-interface-java/
 - Springboot support which all embedded server ?
 	- Spring Boot supports Tomcat, Undertow, and Jetty as embedded servers.
 - What Is a Spring Context?
+```
 Spring contexts are also called Spring IoC containers, which are responsible for instantiating, configuring, and assembling beans by reading 
 configuration metadata from XML, Java annotations, and/or Java code in the configuration files.
+```
 
 - how to design microservices and before implementation
 - What is Atomic in Thread.
