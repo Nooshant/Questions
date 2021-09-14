@@ -280,7 +280,7 @@ configuration metadata from XML, Java annotations, and/or Java code in the confi
 - what is newCachedThreadPool() and what will happen if it has created 10 more thread based on load and when the load decreases what happens with this thread.
 - Creational Design pattern
 - create a singleton using Enum have two method, show the implementation 
-- How to create Immutable class have two class Employee and it has Address as another field as object.
+- How to create Immutable class have two class Employee and it has Address as another field as object. http://adnjavainterview.blogspot.com/2019/06/how-to-create-custom-immutable-class-with-mutable-object-reference-injava.html
 - what will happen if the loading jar size during runtime is larger than Metaspace(considering the max of RAM size)
 - Shutdown vs ShutdownNow method difference
 - Optional in Java-8
