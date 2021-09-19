@@ -45,24 +45,19 @@ public class ExceptionResponse {
 - Throwing an Custom exception from the main class and catching it in catch block 
 	find the hierarchy of execution of that custom exception class
 - What is Normalization in DBMS (SQL)? 1NF, 2NF, 3NF, BCNF.
-- CountDownLatch
-- CustomTheadPoolExecutor
-- Reentrant lock
-```
-ReentrantLock key features as per this article
 
-Ability to lock interruptibly.
+- ReentrantLock key features as per this article
+
+> Ability to lock interruptibly.
 Ability to timeout while waiting for lock.
 Power to create fair lock.
 API to get list of waiting thread for lock.
 Flexibility to try for lock without blocking.
-```
 
 - Using multiple databases in a single transaction
 
 https://learning.oreilly.com/videos/master-microservices-with/9781789132779/9781789132779-video6_20/
 
-- ConcurrentHashMap working and implementation
 - DeepCopy and Swallow Copy https://www.edureka.co/blog/shallow-and-deep-copy-java/
 - Predicate, Consumer, Producer, Stream, Date, MetaSpace replacement of PermSpace
 - GroupBy in java 8
