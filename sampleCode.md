@@ -99,3 +99,22 @@ Both t1 and t2 will be allowed to view simultaneously or read simultaneously. Bu
 
 # Jboss Folder Structure
 ![image](https://user-images.githubusercontent.com/29571875/133925282-e29a3ee1-d7de-4ed7-a32d-9c55b60fb670.png)
+
+
+# ManyToOne and OneToMany mappings
+
+```
+//Source class
+class PackageDbId
+    @Id
+    @ManyToOne(fetch = FetchType.LAZY)
+    @JoinColumn(name = "SUBS_ID", nullable = false)
+    private PbSubscription pSubscription;
+
+// Target class
+class PbSubscription{
+
+   @OneToMany(fetch = FetchType.EAGER, mappedBy = "pSubscription", cascade = { CascadeType.PERSIST,
+            CascadeType.MERGE, CascadeType.REMOVE }, orphanRemoval = true)
+    private Set<PackageDbId> vnfId;
+```
