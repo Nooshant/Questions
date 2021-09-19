@@ -328,4 +328,5 @@ public static ExecutorService newCachedThreadPool() {
 - Name the idempotent method of Webservices operation from eg. PUT,DELETE,GET,...
   > Except POST method all are Idempotent.
 
-
+- why POST method is not idempotent ?
+> HTTP POST. Generally – not necessarily – POST APIs are used to create a new resource on server. So when you invoke the same POST request N times, you will have N new resources on the server. So, POST is not idempotent.
