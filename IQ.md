@@ -292,7 +292,7 @@ public static ExecutorService newCachedThreadPool() {
 ```
 	
 - Creational Design pattern  
-   - Factory pattern 
+   - Factory pattern https://adnjavainterview.blogspot.com/2015/07/factory-design-pattern-in-java.html
    - Abstract Factory Pattern
    - Singleton
    - Builder 
