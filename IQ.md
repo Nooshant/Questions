@@ -275,11 +275,21 @@ configuration metadata from XML, Java annotations, and/or Java code in the confi
 
 - how to design microservices and before implementation
 - What is Atomic in Thread.
-- What is ThreadLocal
+- What is ThreadLocal?  https://www.geeksforgeeks.org/java-lang-threadlocal-class-java/
 - ConcurrentHashMap working like how many write operation can be performed parallel. https://itsromiljain.medium.com/curious-case-of-concurrenthashmap-90249632d335
 - ReentrantWriteLock and ReentrantReadLock how does it work have sample code to see is there any problem in that.
 	- https://github.com/Nooshant/README-IQ/blob/main/sampleCode.md
 - what is newCachedThreadPool() and what will happen if it has created 10 more thread based on load and when the load decreases what happens with this thread.
+  > Creates a thread pool that creates new threads as needed, but will reuse previously constructed threads when they are available. These pools will typically improve the performance of programs that execute many short-lived asynchronous tasks. Calls to execute will reuse previously constructed threads if available. If no existing thread is available, a new thread will be created and added to the pool. Threads that have not been used for sixty seconds are terminated and removed from the cache. Thus, a pool that remains idle for long enough will not consume any resources. Note that pools with similar properties but different details (for example, timeout parameters) may be created using ThreadPoolExecutor constructors. If all allocated threads are occupied while a new task comes in, then it creates a new thread, as offering a new task to a SynchronousQueue always fails when there is no one on the other end to accept it!
+
+```	
+public static ExecutorService newCachedThreadPool() {
+    return new ThreadPoolExecutor(0, Integer.MAX_VALUE,
+                                  60L, TimeUnit.SECONDS,
+                                  new SynchronousQueue<Runnable>());
+}
+```
+	
 - Creational Design pattern
 - create a singleton using Enum have two method, show the implementation 
 - How to create Immutable class have two class Employee and it has Address as another field as object. http://adnjavainterview.blogspot.com/2019/06/how-to-create-custom-immutable-class-with-mutable-object-reference-injava.html
@@ -297,7 +307,7 @@ configuration metadata from XML, Java annotations, and/or Java code in the confi
      - It may be chance that one could take the key to open door and took more time.
      - How would you handle that people waiting for key should not wait for long.
      - Design this requirement.
-- what is race condition, why does it occur. How can you handle it. 
+- what is race condition, why does it occur. How can you handle it. https://github.com/Nooshant/README-IQ/blob/main/core-java.md#race-condition
 - How to find the issue that it is cause of race Condition
 - How to create thread dump and verify in log that it has because of race condition.
 - How to detect deadlock in java and how to prevent ?  https://dzone.com/articles/how-analyze-java-thread-dumps
