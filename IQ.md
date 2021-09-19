@@ -322,3 +322,5 @@ public static ExecutorService newCachedThreadPool() {
 - Builder Design pattern? http://adnjavainterview.blogspot.com/2019/05/builder-design-pattern-in-java.html
     In realtime it is used in StringBuilder and StringBuffer in java.
 
+ - Hibernate one to one mapping using annotation ?
+      http://adnjavainterview.blogspot.com/2018/03/hibernate-one-to-one-mapping-example.html
