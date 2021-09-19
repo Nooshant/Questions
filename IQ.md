@@ -181,6 +181,9 @@ https://docs.spring.io/spring-framework/docs/3.0.x/spring-framework-reference/ht
 - String s ="abc"; s.concat("def"); sop(s).   What is happening over here.
 - Annotation in JPA
 - Difference in JPA and Hibernate
+	
+	![image](https://user-images.githubusercontent.com/29571875/133926003-a77d874f-cda0-4e2c-8c78-ca7e1840e841.png)
+
 - @Qualifier use
 - @Primary vs @Qualifier https://jstobigdata.com/spring/fine-tune-auto-wiring-using-primary-and-qualifier/
 - Use of hashcode and equals method
