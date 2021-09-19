@@ -93,5 +93,9 @@ public class MinSwapToOrder {
 Both t1 and t2 will be allowed to view simultaneously or read simultaneously. But for writeResource only one thread at a time will be able to write.
 
 **Note:**
+
 ![image](https://user-images.githubusercontent.com/29571875/133921674-da31a0fb-8608-485b-aa84-ba8e3a1d088d.png)
 
+
+# Jboss Folder Structure
+![image](https://user-images.githubusercontent.com/29571875/133925282-e29a3ee1-d7de-4ed7-a32d-9c55b60fb670.png)
