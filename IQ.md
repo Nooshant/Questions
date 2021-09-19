@@ -315,4 +315,6 @@ public static ExecutorService newCachedThreadPool() {
 - What is WSDL in SOAP ?
 - What is namespace in xml schema ?
 - What is .xsd and what is the use of it ?
+- Builder Design pattern? http://adnjavainterview.blogspot.com/2019/05/builder-design-pattern-in-java.html
+    In realtime it is used in StringBuilder and StringBuffer in java.
 
