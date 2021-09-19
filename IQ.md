@@ -300,4 +300,4 @@ configuration metadata from XML, Java annotations, and/or Java code in the confi
 - what is race condition, why does it occur. How can you handle it. 
 - How to find the issue that it is cause of race Condition
 - How to create thread dump and verify in log that it has because of race condition.
-
+- How to detect deadlock in java and how to prevent ?  https://dzone.com/articles/how-analyze-java-thread-dumps
