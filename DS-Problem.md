@@ -127,15 +127,15 @@ suppose you have the sun some of the configuration are same and some of the conf
 - Design voting system
 - suppose you are given a matrix and find out the number of islands in the.
 - how will implement phone directory please explain with the help of Java.
-- How thread pooll keep on running always .
-- How does the thread poll woks
+- How thread pool keep on running always .
+- How does the thread pool woks
 - How do you know the status of the worker thread .
 - Oauth feature implemention in my project
 - Java Basics on Threads and concuurrency.
 - Write code for it
 - Exam why concuurrency ??
 - Basic idea behind it
-- How memory leak happens
+- How memory leak happens https://rollbar.com/blog/how-to-detect-memory-leaks-in-java-causes-types-tools/
 - How merge sort work
 - How quick sort works
 - Lending Kart
@@ -154,3 +154,4 @@ Asked alot of things about threads.
 - String question why string is immutable class what is use of string constant pool in Java etc
 - And implementing autocomplete of a sentence just like Google does
 - Trie tree implementation
+- Can we ovveride the Thread class method ?
