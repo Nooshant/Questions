@@ -303,7 +303,7 @@ Problems often occur when one thread does a "check-then-act" (e.g. "check" if th
 
 # ExecutorService Usage
 1. execute(Runnable)
-	```
+```
 	ExecutorService executorService = Executors.newSingleThreadExecutor();
 
 executorService.execute(new Runnable() {
@@ -313,9 +313,9 @@ executorService.execute(new Runnable() {
 });
 
 executorService.shutdown()
-	```
+```
 2. submit(Runnable)
-	```
+```
 	Future future = executorService.submit(new Runnable() {
     public void run() {
         System.out.println("Asynchronous task");
@@ -323,9 +323,9 @@ executorService.shutdown()
 });
 
 future.get();  //returns null if the task has finished correctly.
-	```
+```
 3. submit(Callable)
-	```
+```
 	Future future = executorService.submit(new Callable(){
     public Object call() throws Exception {
         System.out.println("Asynchronous Callable");
@@ -334,7 +334,7 @@ future.get();  //returns null if the task has finished correctly.
 });
 
 System.out.println("future.get() = " + future.get());
-	```
+```
 4. invokeAny(...)
 5. invokeAll(...)
 
