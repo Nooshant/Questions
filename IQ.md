@@ -262,8 +262,11 @@ https://www.geeksforgeeks.org/comparator-interface-java/
 - Min no. of swaps to sort the array
 - Create Deadlock in java
 - Jboss folder structure
+	https://github.com/Nooshant/README-IQ/blob/main/sampleCode.md#jboss-folder-structure
 - How to do packaging using jboss
-- Log4j configuration
+- Log4j configuration  https://mail.codejava.net/coding/how-to-configure-log4j-as-logging-mechanism-in-java
+	![Untitled](https://user-images.githubusercontent.com/29571875/133925861-6e49c2de-522b-42cf-850f-5af295c787ed.png)
+
 - Print Alphabet and number using two thread. a1b2c3d4......
 - Springboot support which all embedded server ?
 	- Spring Boot supports Tomcat, Undertow, and Jetty as embedded servers.
