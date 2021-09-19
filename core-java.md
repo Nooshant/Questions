@@ -292,3 +292,6 @@ public interface Executor {
         System.out.println("---------------After Sorting List Using Lambda Expression From Java8--------------");
         System.out.println(employeeList2);
 ```
+https://techvidvan.com/tutorials/java-interview-questions-for-experienced/
+	
+![image](https://user-images.githubusercontent.com/29571875/133917442-bda8a3e9-adf3-4847-8405-aba58e9acf51.png)
