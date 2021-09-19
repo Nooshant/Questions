@@ -316,9 +316,9 @@ public static ExecutorService newCachedThreadPool() {
 - How to find the issue that it is cause of race Condition
 - How to create thread dump and verify in log that it has because of race condition.
 - How to detect deadlock in java and how to prevent ?  https://dzone.com/articles/how-analyze-java-thread-dumps
-- What is WSDL in SOAP ?
+- What is WSDL in SOAP ? https://www.guru99.com/wsdl-web-services-description-language.html
 - What is namespace in xml schema ? https://www.informit.com/articles/article.aspx?p=169106&seqNum=2
-- What is .xsd and what is the use of it ?
+- What is .xsd and what is the use of it ? https://study.com/academy/lesson/what-is-xsd-examples-tutorial.html
 - Builder Design pattern? http://adnjavainterview.blogspot.com/2019/05/builder-design-pattern-in-java.html
     In realtime it is used in StringBuilder and StringBuffer in java.
 
