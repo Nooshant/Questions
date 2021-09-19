@@ -291,7 +291,11 @@ public static ExecutorService newCachedThreadPool() {
 }
 ```
 	
-- Creational Design pattern
+- Creational Design pattern  
+   - Factory pattern 
+   - Abstract Factory Pattern
+   - Singleton
+   - Builder 
 - create a singleton using Enum have two method, show the implementation 
 - How to create Immutable class have two class Employee and it has Address as another field as object. http://adnjavainterview.blogspot.com/2019/06/how-to-create-custom-immutable-class-with-mutable-object-reference-injava.html
 - what will happen if the loading jar size during runtime is larger than Metaspace(considering the max of RAM size)
