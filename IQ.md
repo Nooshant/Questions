@@ -317,10 +317,15 @@ public static ExecutorService newCachedThreadPool() {
 - How to create thread dump and verify in log that it has because of race condition.
 - How to detect deadlock in java and how to prevent ?  https://dzone.com/articles/how-analyze-java-thread-dumps
 - What is WSDL in SOAP ?
-- What is namespace in xml schema ?
+- What is namespace in xml schema ? https://www.informit.com/articles/article.aspx?p=169106&seqNum=2
 - What is .xsd and what is the use of it ?
 - Builder Design pattern? http://adnjavainterview.blogspot.com/2019/05/builder-design-pattern-in-java.html
     In realtime it is used in StringBuilder and StringBuffer in java.
 
  - Hibernate one to one mapping using annotation ?
       http://adnjavainterview.blogspot.com/2018/03/hibernate-one-to-one-mapping-example.html
+	
+- Name the idempotent method of Webservices operation from eg. PUT,DELETE,GET,...
+  > Except POST method all are Idempotent.
+
+
