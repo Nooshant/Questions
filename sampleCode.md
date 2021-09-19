@@ -83,3 +83,15 @@ public class MinSwapToOrder {
 }
 
 ```
+
+
+# ReentrantReadWriteLock 
+
+![image](https://user-images.githubusercontent.com/29571875/133921612-d4c5a078-36d2-47ea-b644-fefc3dd037e3.png)
+
+
+Both t1 and t2 will be allowed to view simultaneously or read simultaneously. But for writeResource only one thread at a time will be able to write.
+
+**Note:**
+![image](https://user-images.githubusercontent.com/29571875/133921674-da31a0fb-8608-485b-aa84-ba8e3a1d088d.png)
+
