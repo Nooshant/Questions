@@ -7,6 +7,7 @@
 - https://www.journaldev.com/1377/java-singleton-design-pattern-best-practices-examples  (BEST)
 - https://www.interviewbit.com/hibernate-interview-questions/ (Hibernate) PkgmNotificationSubscriptionDbDao
 - https://medium.com/platform-engineer/understanding-java-memory-model-1d0863f6d973 (JVM memory model)
+- http://karunsubramanian.com/websphere/one-important-change-in-memory-management-in-java-8/ (MetaSpace Java-8)
 
 # Questions:
 
