@@ -261,7 +261,7 @@ https://www.geeksforgeeks.org/comparator-interface-java/
 	It has custom type of response code, means developer has to decide.
 
 - Min no. of swaps to sort the array
-- Create Deadlock in java
+- Create Deadlock in java https://github.com/Nooshant/MultiThreading/blob/main/README.md#deadlock-example
 - Jboss folder structure
 	https://github.com/Nooshant/README-IQ/blob/main/sampleCode.md#jboss-folder-structure
 - How to do packaging using jboss
@@ -278,6 +278,18 @@ configuration metadata from XML, Java annotations, and/or Java code in the confi
 ```
 
 - how to design microservices and before implementation
+```
+Think of something like no. of MCs, in that case, need to have 
+-> config-server to centralized the configuration,  @EnableConfigServer
+-> registry and discovery-service(Eureka-server), @EnableEurekaServer in main class
+-> Security
+-> Gateway-services(Zuul for loadbalancing as well),@EnableZuulProxy
+-> Hystrix dashboard for UI based Service for real-time monitoring of connections, 
+	and caching and batching mechanisms to make inter-service dependencies more efficient and 
+-> Circuit Breaker integration with gateway route to other service in case of 
+	any services is down to show the current message to User.
+-> Zipkin and sleuth for tracing the log (traceID, SpanId, logId)
+```
 - What is Atomic in Thread.
 - What is ThreadLocal?  https://www.geeksforgeeks.org/java-lang-threadlocal-class-java/
 - ConcurrentHashMap working like how many write operation can be performed parallel. https://itsromiljain.medium.com/curious-case-of-concurrenthashmap-90249632d335
