@@ -32,41 +32,42 @@ https://docs.oracle.com/cd/E13222_01/wls/docs61/programming/app_xml.html
 https://docs.jboss.org/jbossas/guides/webguide/r2/en/html/ch06.html
 https://learning.oreilly.com/videos/robotic-process-automation/9781789139488/9781789139488-video1_2/
 http://tutorials.jenkov.com/java-concurrency/index.html
-***************
+
+  
 *********Multhithreading********************
 1. Custome blocking queue
 2. custom threadpool executor
 
 
 
-
+# Hard
 *****************
 
-Smallest Subsequence of Distinct Characters
-Longest Well-Performing Interval
-Minimum Cost Tree From Leaf Values
-Reverse Substrings Between Each Pair of Parentheses
-Remove All Adjacent Duplicates in String II
-Minimum Remove to Make Valid Parentheses
-Design a Stack With Increment Operation
-HTML Entity Parser
-Build an Array With Stack Operations
-Minimum Insertions to Balance a Parentheses String
-Make The String Great
-Crawler Log Folder
-Find the Most Competitive Subsequence
-Minimum Adjacent Swaps for K Consecutive Ones
+- Smallest Subsequence of Distinct Characters
+- Longest Well-Performing Interval
+- Minimum Cost Tree From Leaf Values
+- Reverse Substrings Between Each Pair of Parentheses
+- Remove All Adjacent Duplicates in String II
+- Minimum Remove to Make Valid Parentheses
+- Design a Stack With Increment Operation
+- HTML Entity Parser
+- Build an Array With Stack Operations
+- Minimum Insertions to Balance a Parentheses String
+- Make The String Great
+- Crawler Log Folder
+- Find the Most Competitive Subsequence
+- Minimum Adjacent Swaps for K Consecutive Ones
 
 https://algorithms.tutorialhorizon.com/
 
 *****************
-Factory - Most used most abused
-Singleton - Second most used second most abused
-Builder
-MVC ( Web frameworks )
-Prototype ( Cloning )
-Adapter ( asList , toString )
-Proxy
-Observer ( Event Listener )
-Filter ( Criteria )
-Prototype Pattern
+- Factory - Most used most abused
+- Singleton - Second most used second most abused
+- Builder
+- MVC ( Web frameworks )
+- Prototype ( Cloning )
+- Adapter ( asList , toString )
+- Proxy
+- Observer ( Event Listener )
+- Filter ( Criteria )
+- Prototype Pattern
