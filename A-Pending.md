@@ -3,6 +3,8 @@
 - Core Java-8
 - Multithreading Deep dive
 - DS Tree and Dynamic Programming
+- Design the Microservices
+- Project Architecture
 
 # Omuni
 1. If tree is not then make the BST 
