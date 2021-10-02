@@ -329,7 +329,7 @@ public static ExecutorService newCachedThreadPool() {
      - How would you handle that people waiting for key should not wait for long.
      - Design this requirement.
 - what is race condition, why does it occur. How can you handle it. https://github.com/Nooshant/README-IQ/blob/main/core-java.md#race-condition
-- How to find the issue that it is cause of race Condition
+- How to find the issue that it is cause of race Condition https://www.netjstech.com/2015/06/race-condition-in-java-multi-threading.html
 - How to create thread dump and verify in log that it has because of race condition.
 - How to detect deadlock in java and how to prevent ?  https://dzone.com/articles/how-analyze-java-thread-dumps
 - What is WSDL in SOAP ? https://www.guru99.com/wsdl-web-services-description-language.html
