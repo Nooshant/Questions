@@ -9,7 +9,8 @@
 - https://medium.com/platform-engineer/understanding-java-memory-model-1d0863f6d973 (JVM memory model)
 - http://karunsubramanian.com/websphere/one-important-change-in-memory-management-in-java-8/ (MetaSpace Java-8)
 - https://www.javapedia.net/Spring-Boot#qanda2898  (SpringBoot)
-- https://www.interviewbit.com/rest-api-interview-questions/  Restful Webservices
+- https://www.interviewbit.com/rest-api-interview-questions/  (Restful Webservices)
+- https://opendsa-server.cs.vt.edu/ODSA/Books/CS2/html/HeapMem.html  (Heap Memory allocation in GIF)
 
 # Questions:
 
