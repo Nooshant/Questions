@@ -49,7 +49,7 @@ public class ExceptionResponse {
 - Sum of two numbers closest to zero in a Array of integers (both negative and positive numbers)
 - Throwing an Custom exception from the main class and catching it in catch block 
 	find the hierarchy of execution of that custom exception class
-- What is Normalization in DBMS (SQL)? 1NF, 2NF, 3NF, BCNF.
+- What is Normalization in DBMS (SQL)? 1NF, 2NF, 3NF, BCNF.  https://www.javatpoint.com/dbms-second-normal-form
 
 - ReentrantLock key features as per this article
 
