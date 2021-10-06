@@ -6,8 +6,9 @@
 - Design the Microservices
 - Project Architecture
 
-https://www.journaldev.com/1440/prototype-design-pattern-in-java 
-https://howtodoinjava.com/design-patterns/creational/prototype-design-pattern-in-java/
+1. https://www.journaldev.com/1440/prototype-design-pattern-in-java 
+2. https://howtodoinjava.com/design-patterns/creational/prototype-design-pattern-in-java/
+3. https://www.bezkoder.com/spring-boot-jwt-authentication/
 
 # Omuni
 1. If tree is not BST then make the BST 
