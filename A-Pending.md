@@ -1,10 +1,11 @@
-- SpringBoot Security 
+- SpringBoot Security (Oauth Simulator video)
 - SpringBoot Microservices
 - Core Java-8
 - Multithreading Deep dive
 - DS Tree and Dynamic Programming
 - Design the Microservices
 - Project Architecture
+
 
 1. https://www.journaldev.com/1440/prototype-design-pattern-in-java 
 2. https://howtodoinjava.com/design-patterns/creational/prototype-design-pattern-in-java/
