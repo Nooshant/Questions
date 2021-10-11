@@ -53,7 +53,7 @@
 - Deepest node of binary tree
 - Find all node has only one child
 - Check if two binary tree are structurally identical.
-- Diameter of binary tree
+- Diameter of binary tree  https://www.youtube.com/watch?v=Prph-j0sgr4&ab_channel=FitCoder
 - Check for existence of path sum
 - Mirror image of binary tree
 - Construct binary tree from given inorder and preorder traversals.
