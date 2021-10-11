@@ -61,7 +61,7 @@
 - Find LCA of any node
 - Finding vertical sum of a binary tree
 - Diagonal traversal of binary tree
-- Maximum path sum
+- Maximum path sum https://www.youtube.com/watch?v=Jz-S6gnmC_4&ab_channel=FitCoder
 
 # From Dhanajay
 
