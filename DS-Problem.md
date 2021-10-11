@@ -61,7 +61,7 @@
 - Find LCA of any node
 - Finding vertical sum of a binary tree
 - Diagonal traversal of binary tree
-
+- Maximum path sum
 
 # From Dhanajay
 
