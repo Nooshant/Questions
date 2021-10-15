@@ -33,3 +33,9 @@
 - `<mapping class="org.o7planning.tutorial.hibernate.entities.Department" /> ` is to map the Entity class.
 - `<property name="hibernate.hbm2ddl.auto">create</property>` adding this property create the table automatically in database when session-factory is getting
    created during application start up.
+
+- Possible value of `hibernate.hbm2ddl.auto`
+   - create-drop:
+   - update
+   - validate
+   - none
