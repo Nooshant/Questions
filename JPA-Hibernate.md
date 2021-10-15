@@ -45,4 +45,5 @@
 ![Untitled](https://user-images.githubusercontent.com/29571875/137528133-eeb8b80b-e402-4d83-acdd-7caa9f10caa4.png)
 
 - Column annotated with @JoinColumn is another column in that entity table which it is declared.
+- https://en.wikibooks.org/wiki/Java_Persistence/OneToMany
 
