@@ -140,9 +140,11 @@ spring.cloud.config.server.git.uri=file:///C:/Users/thakurde/mircoservices/git-l
 ![image](https://user-images.githubusercontent.com/29571875/137614591-38e1d21e-bbb2-405e-8e01-6c687080d803.png)
 
 
+**DEPARTMENT-MICROSERVICE**
+
 ![image](https://user-images.githubusercontent.com/29571875/137614856-c806c5e8-cf3e-4ebd-97a3-5e3fb7c994fc.png)
 
-- *Similarly USER-MICROSERVICE*
+**Similarly USER-MICROSERVICE**
 
 ![image](https://user-images.githubusercontent.com/29571875/137614948-4f2d3a18-35d2-4ca0-b0a0-a34088b733d3.png)
 
@@ -158,7 +160,7 @@ spring.cloud.config.server.git.uri=file:///C:/Users/thakurde/mircoservices/git-l
 ![image](https://user-images.githubusercontent.com/29571875/137615212-68991624-45ac-4ee2-86fb-c2c56e562709.png)
 
 
-- *Cloud-Gateway*
+ **Cloud-Gateway Service**
 
 
    ![image](https://user-images.githubusercontent.com/29571875/137615287-81f81f7c-6a8c-435f-ac0b-7a0d1daf2581.png)
@@ -184,11 +186,15 @@ Create a new Controller class and then method for each MC call eg.. in Gateway-M
 
 - User `filters` keyword to map the circuit breaker and route the MCs call to fallBackUri path to give user the proper message, in case could hit the correct MCs.
 
-_**Hystrix Dashboard**
+**Hystrix Dashboard Configuration in Gateway service**
 
 ![image](https://user-images.githubusercontent.com/29571875/137616183-53a4dc55-4c6b-41e4-aadd-5f02c726179d.png)
 
+**Hystrix Dashboard MCs**
 
+![image](https://user-images.githubusercontent.com/29571875/137616247-8e2d7b35-de73-4fd2-9391-c3b4897ba404.png)
+
+![image](https://user-images.githubusercontent.com/29571875/137616307-e9922b3d-4a92-4199-8a7e-cbbf6b50d341.png)
 
 
 
