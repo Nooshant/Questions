@@ -222,6 +222,9 @@ hystrix:
 
 ![image](https://user-images.githubusercontent.com/29571875/137625788-9ebc789d-6ce7-4cc2-be1d-44ff57ec74ef.png)
 
+- Now create a `bootstrap.yml` file put the cloud config server configuration in this in all MCs. and remove the eureka configuration from
+  each MCs.
 
+![image](https://user-images.githubusercontent.com/29571875/137625900-a5c91cca-e924-42a8-a078-0908f8855f09.png)
 
 
