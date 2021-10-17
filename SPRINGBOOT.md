@@ -116,7 +116,7 @@ public class CustomizedResponseEntityExceptionHandler extends ResponseEntityExce
 ```
 #spring.cloud.config.import-check.enabled=true
 spring.application.name=limits-service
-spring.config.import=configserver:http://localhost:8888
+spring.config.import=configserver:http://localhost:8888  (Registered to Config Server)
 
 spring.profiles.active=qa,dev #To enable both profiles
 limits-service.minimum=2
@@ -129,8 +129,42 @@ limits-service.maximum=998
 spring.application.name=spring-cloud-config-server
 server.port=8888
 
-spring.cloud.config.server.git.uri=file:///C:/Users/thakurde/mircoservices/git-localconfig-repo/
+spring.cloud.config.server.git.uri=file:///C:/Users/thakurde/mircoservices/git-localconfig-repo/ 
 ```
 
 
 **https://www.java4s.com/web-services/restful-web-services-jax-rs-formparam-example/#:~:text=By%20using%20%40FormParam%20annotation,would%20be%20the%20best%20choice.**
+
+# MCs Architecture
+
+![image](https://user-images.githubusercontent.com/29571875/137614591-38e1d21e-bbb2-405e-8e01-6c687080d803.png)
+
+
+![image](https://user-images.githubusercontent.com/29571875/137614856-c806c5e8-cf3e-4ebd-97a3-5e3fb7c994fc.png)
+
+Similarly USER-MICROSERVICE
+
+![image](https://user-images.githubusercontent.com/29571875/137614948-4f2d3a18-35d2-4ca0-b0a0-a34088b733d3.png)
+
+
+![image](https://user-images.githubusercontent.com/29571875/137615191-d354c1de-9688-4d55-9958-2945a97cf02e.png)
+
+
+![image](https://user-images.githubusercontent.com/29571875/137615065-02aaaf41-cef5-403b-b7e5-19f9d954ba96.png)
+ - Once MCs is register to Eureka, now call the another MC from Current MC doesn't require to pass the `hostname+port`.
+   There could be a change to have multiple instance of same MCs running then calling the MC will get confuse and throw error.
+   To Overcome from this, Loadbalancer comes into picture.
+
+![image](https://user-images.githubusercontent.com/29571875/137615212-68991624-45ac-4ee2-86fb-c2c56e562709.png)
+
+
+- *Cloud-Gateway*
+   ![image](https://user-images.githubusercontent.com/29571875/137615287-81f81f7c-6a8c-435f-ac0b-7a0d1daf2581.png)
+
+     - First enable the Eureka Client so it would be registered to Eureka server.
+     - Now configure the application.yml or properties to route the MCs call based on the MCs name.
+     
+       ![image](https://user-images.githubusercontent.com/29571875/137615387-c1c47ad5-b0d8-420f-844c-a11b89cddd6f.png)
+
+
+
