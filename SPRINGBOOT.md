@@ -227,4 +227,15 @@ hystrix:
 
 ![image](https://user-images.githubusercontent.com/29571875/137625900-a5c91cca-e924-42a8-a078-0908f8855f09.png)
 
+# Zipkin and Sleuth for all MCs logging like TraceId
+
+- First download the Zipkin jar and start it.
+- Add the below Zipkin configuration in all MCs.
+
+![image](https://user-images.githubusercontent.com/29571875/137626021-48f76ce1-4093-450f-891e-4286347fd1a5.png)
+
+Now start and run the below uri to see the traces
+
+![image](https://user-images.githubusercontent.com/29571875/137626057-5509423a-9eb2-4a3c-923f-05bce7f30c57.png)
+
 
