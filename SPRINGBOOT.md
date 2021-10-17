@@ -142,7 +142,7 @@ spring.cloud.config.server.git.uri=file:///C:/Users/thakurde/mircoservices/git-l
 
 ![image](https://user-images.githubusercontent.com/29571875/137614856-c806c5e8-cf3e-4ebd-97a3-5e3fb7c994fc.png)
 
-- Similarly USER-MICROSERVICE
+- *Similarly USER-MICROSERVICE*
 
 ![image](https://user-images.githubusercontent.com/29571875/137614948-4f2d3a18-35d2-4ca0-b0a0-a34088b733d3.png)
 
@@ -167,7 +167,23 @@ spring.cloud.config.server.git.uri=file:///C:/Users/thakurde/mircoservices/git-l
      - Now configure the application.yml or properties to route the MCs call based on the MCs name.
      
        ![image](https://user-images.githubusercontent.com/29571875/137615387-c1c47ad5-b0d8-420f-844c-a11b89cddd6f.png)
-        - lb indicate Loadbalanced
+        - lb:/    -> indicate Loadbalanced
+ 
+  - In case of MCs is down and when user trying to communicate then he should see the proper reason why he is not able to access it.
+    For that, Hyristrix dashboard is configured at the Gateway MCs
+    
+    ![image](https://user-images.githubusercontent.com/29571875/137615648-49bdc2c8-3723-4a06-a4f9-2473db57b29f.png)
+
+Create a new Controller class and then method for each MC call eg.. in Gateway-Microservice
+
+![image](https://user-images.githubusercontent.com/29571875/137615695-c7390432-8a71-40bb-8d54-156676f2a42f.png)
+
+- *Now configure this path in application.yml* 
+
+![image](https://user-images.githubusercontent.com/29571875/137615736-d3687151-39c4-46f9-b6ce-37dbec683087.png)
+
+         - User `filters` keyword to map the circuit breaker and route the MCs call to fallBackUri path to give user the proper message, in case could hit the correct MCs.
+
 
 
 
