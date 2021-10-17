@@ -197,4 +197,12 @@ Create a new Controller class and then method for each MC call eg.. in Gateway-M
 ![image](https://user-images.githubusercontent.com/29571875/137616307-e9922b3d-4a92-4199-8a7e-cbbf6b50d341.png)
 
 
+```
+#Allow access to the dashboard's web pages
+hystrix:
+  dashboard:
+    #You can also specify a specific domain name | ip
+    proxy-stream-allow-list: "*"
+
+```
 
