@@ -142,7 +142,7 @@ spring.cloud.config.server.git.uri=file:///C:/Users/thakurde/mircoservices/git-l
 
 ![image](https://user-images.githubusercontent.com/29571875/137614856-c806c5e8-cf3e-4ebd-97a3-5e3fb7c994fc.png)
 
-Similarly USER-MICROSERVICE
+- Similarly USER-MICROSERVICE
 
 ![image](https://user-images.githubusercontent.com/29571875/137614948-4f2d3a18-35d2-4ca0-b0a0-a34088b733d3.png)
 
@@ -159,12 +159,15 @@ Similarly USER-MICROSERVICE
 
 
 - *Cloud-Gateway*
+
+
    ![image](https://user-images.githubusercontent.com/29571875/137615287-81f81f7c-6a8c-435f-ac0b-7a0d1daf2581.png)
 
      - First enable the Eureka Client so it would be registered to Eureka server.
      - Now configure the application.yml or properties to route the MCs call based on the MCs name.
      
        ![image](https://user-images.githubusercontent.com/29571875/137615387-c1c47ad5-b0d8-420f-844c-a11b89cddd6f.png)
+        - lb indicate Loadbalanced
 
 
 
