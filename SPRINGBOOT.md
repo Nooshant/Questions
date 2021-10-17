@@ -219,6 +219,8 @@ hystrix:
 
 - Now create a repository in Github and put the common `eureka configuration` in `application.yml` and confire the github location in
   in cloud-config-server.
+![image](https://user-images.githubusercontent.com/29571875/137626087-20d1cdb4-a20c-4d15-8c2b-0f8db5d8bfa3.png)
+
 
 ![image](https://user-images.githubusercontent.com/29571875/137625788-9ebc789d-6ce7-4cc2-be1d-44ff57ec74ef.png)
 
