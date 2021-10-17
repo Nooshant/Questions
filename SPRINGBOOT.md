@@ -182,7 +182,12 @@ Create a new Controller class and then method for each MC call eg.. in Gateway-M
 
 ![image](https://user-images.githubusercontent.com/29571875/137615736-d3687151-39c4-46f9-b6ce-37dbec683087.png)
 
-         - User `filters` keyword to map the circuit breaker and route the MCs call to fallBackUri path to give user the proper message, in case could hit the correct MCs.
+- User `filters` keyword to map the circuit breaker and route the MCs call to fallBackUri path to give user the proper message, in case could hit the correct MCs.
+
+_**Hystrix Dashboard**
+
+![image](https://user-images.githubusercontent.com/29571875/137616183-53a4dc55-4c6b-41e4-aadd-5f02c726179d.png)
+
 
 
 
