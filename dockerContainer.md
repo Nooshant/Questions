@@ -50,9 +50,6 @@ We can run multiple container from same image but in different port.
 - docker events
 - docker stats -> hardware and cpu pIDs info
 - docker system df
-- 
--  
-
 
 # Docker Architecture
   
@@ -69,4 +66,7 @@ We can run multiple container from same image but in different port.
   First it check in the local if not found then download from repositary and run it as container.
   
 ![image](https://user-images.githubusercontent.com/29571875/129889335-5697d1e3-22c5-4eba-b276-42f560f9bfd1.png)
+
+For more details:
+https://docs.docker.com/get-started/overview/
 
