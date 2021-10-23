@@ -348,3 +348,15 @@ public static ExecutorService newCachedThreadPool() {
 
 - why POST method is not idempotent ?
 > HTTP POST. Generally – not necessarily – POST APIs are used to create a new resource on server. So when you invoke the same POST request N times, you will have N new resources on the server. So, POST is not idempotent.
+	
+- Spring MVC architecture 
+- @WebMvcTest
+- How to mock static method in mockito.
+- Set vs Map
+- Interface vs Abstract
+- Dynamic Polymorphism 
+- default method significance
+- Handle exception in MVC
+- @RequestMapping
+- Array vs ArrayList
+- All the annotation in Spring MVC
