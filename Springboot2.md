@@ -128,3 +128,9 @@ Spring Boot auto-configuration attempts to automatically configure your Spring a
 https://www.java4s.com/web-services/exception-handling-in-restful-web-services-jax-rs-with-jersey/
 
 You need to opt-in to auto-configuration by adding the @EnableAutoConfiguration or @SpringBootApplication annotations to one of your @Configuration classes.
+
+# Spring MVC
+
+All the annotation in MVC
+![image](https://user-images.githubusercontent.com/29571875/138545223-2c4693cc-e279-4a6b-89a7-5a5331adbe1f.png)
+
