@@ -360,3 +360,4 @@ public static ExecutorService newCachedThreadPool() {
 - @RequestMapping
 - Array vs ArrayList
 - All the annotation in Spring MVC
+- How to create Jenkins job so it would trigger dynamically for each commit.
