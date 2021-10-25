@@ -11,7 +11,9 @@
 2. https://howtodoinjava.com/design-patterns/creational/prototype-design-pattern-in-java/
 3. https://www.bezkoder.com/spring-boot-jwt-authentication/
 
-# Omuni
+https://self-learning-java-tutorial.blogspot.com/2018/09/threads-print-characters-of-string.html
+
+# O___ni
 1. If tree is not BST then make the BST 
 2. Max sum of Array (Kadance Algo)
 3. String Combination
