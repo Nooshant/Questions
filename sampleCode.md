@@ -118,3 +118,9 @@ class PbSubscription{
             CascadeType.MERGE, CascadeType.REMOVE }, orphanRemoval = true)
     private Set<PackageDbId> vnfId;
 ```
+
+# Mocked static method in Mockito
+
+```
+
+```
