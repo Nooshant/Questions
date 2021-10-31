@@ -7,13 +7,15 @@
 - Project Architecture
 
 
-1. https://www.journaldev.com/1440/prototype-design-pattern-in-java 
+1. https://www.journaldev.com/1440/prototype-design-pattern-in-java (**Prototype Design pattern**)
 2. https://howtodoinjava.com/design-patterns/creational/prototype-design-pattern-in-java/
-3. https://www.bezkoder.com/spring-boot-jwt-authentication/
+3. https://www.bezkoder.com/spring-boot-jwt-authentication/   (**jwt authentication**)
 
 https://self-learning-java-tutorial.blogspot.com/2018/09/threads-print-characters-of-string.html
 
-https://github.com/learning-zone/devops-interview-questions#readme
+https://github.com/learning-zone/devops-interview-questions#readme (**DevOps IQ**)
+
+- https://dzone.com/articles/design-patterns-for-microservices (**What is Microservices Design pattern ?**)
 
 # O___ni
 1. If tree is not BST then make the BST 
