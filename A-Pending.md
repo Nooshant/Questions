@@ -38,6 +38,9 @@
 - Rotate an array by k times O(n)
 - ArrayList vs LinkedList 
 - Can we insert hetrogenous element in ArrayList (like int,char,string at a time)
+- Find longest substring from a string contains all the distinct character.
+- Maximum sequence from an unsorted array `[9,34,6,17,16,8,7]` and here it is `4` because `[6,7,8,9]`
+ 
 
 
 <div align="right">
