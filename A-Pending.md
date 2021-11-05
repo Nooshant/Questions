@@ -25,6 +25,9 @@
 4. Array 0's and 1's in linear time complexity
 5. Difference between Hashtable & HashMap
 
+
+
+
 # 
 
 - 2nd/nth highest salary from employee table
@@ -33,6 +36,8 @@
 
 # 
 
+- Time complexity of Arrays.sort() and which sorting is used.
+- Max time complexity of HashMap -> O(logn)
 - Combination of an string
 - Rotate an array by k times O(n)
 - 
