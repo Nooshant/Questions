@@ -76,6 +76,11 @@ https://learning.oreilly.com/videos/master-microservices-with/9781789132779/9781
 		Map<Integer, List<Employee>> groupByname = employees.stream().collect(Collectors.groupingBy(Employee::getDepartment));
   ```
   
+ <div align="right">
+    <b><a href="#">↥ back to top</a></b>
+</div>
+  
+  
 - Static synchronized in static Synchronized ?
  ```
  class Sample
@@ -152,6 +157,11 @@ https://jstobigdata.com/spring/inversion-of-control-and-dependency-injection-in-
 https://stackoverflow.com/questions/5113579/how-to-import-spring-config-xml-of-one-project-into-spring-config-xml-of-another
 
 
+<div align="right">
+    <b><a href="#">↥ back to top</a></b>
+</div>
+
+
 
 Constructor argument resolution
 
@@ -172,6 +182,11 @@ public Foo(Bar bar, Baz baz) {
   <bean id="baz" class="x.y.Baz"/>
 </beans>
 ```
+
+
+<div align="right">
+    <b><a href="#">↥ back to top</a></b>
+</div>
 
 https://docs.spring.io/spring-framework/docs/3.0.x/spring-framework-reference/html/beans.html#beans-factory-xml-import (bean import example)
 
@@ -262,6 +277,11 @@ https://www.geeksforgeeks.org/comparator-interface-java/
 	![image](https://user-images.githubusercontent.com/29571875/131291803-08a2cae3-97fd-4be8-8889-25d3bf647a21.png)
 	It is more secure than REST since whole envelope is encrypted.
 	It has custom type of response code, means developer has to decide.
+	
+
+<div align="right">
+    <b><a href="#">↥ back to top</a></b>
+</div>
 
 - Min no. of swaps to sort the array
 - Create Deadlock in java https://github.com/Nooshant/MultiThreading/blob/main/README.md#deadlock-example
@@ -361,3 +381,8 @@ public static ExecutorService newCachedThreadPool() {
 - Array vs ArrayList
 - All the annotation in Spring MVC
 - How to create Jenkins job so it would trigger dynamically for each commit.
+	
+	
+<div align="right">
+    <b><a href="#">↥ back to top</a></b>
+</div>
