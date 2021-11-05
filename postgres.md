@@ -16,3 +16,19 @@ ACID stands for Atomicity, Consistency, Isolation, Durability. It is used to ens
 - Consistency:  your transaction never leaves the database without completing its state.
 - Isolation: The main goal of isolation is concurrency control.
 - Durability: Durability means that if a transaction has been committed, it will occur whatever may come in between such as power loss, crash or any sort of error.
+
+
+ # Write SQL query to find the 3rd highest salary from a table without using the TOP/limit keyword.**
+
+```
+ SELECT Salary
+FROM EmployeeSalary Emp1
+WHERE 2 = (
+                SELECT COUNT( DISTINCT ( Emp2.Salary ) )
+                FROM EmployeeSalary Emp2
+                WHERE Emp2.Salary > Emp1.Salary
+            )
+ ```
+ 
+ For more info... https://www.geeksforgeeks.org/sql-query-to-find-second-largest-salary/
+ 
