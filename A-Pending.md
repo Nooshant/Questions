@@ -40,4 +40,5 @@
 - Max time complexity of HashMap -> O(logn)
 - Combination of an string
 - Rotate an array by k times O(n)
-- 
+- ArrayList vs LinkedList 
+- Can we insert hetrogenous element in ArrayList (like int,char,string at a time)
