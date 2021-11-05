@@ -25,11 +25,7 @@
 4. Array 0's and 1's in linear time complexity
 5. Difference between Hashtable & HashMap
 
-
-
-
-# 
-
+#
 - 2nd/nth highest salary from employee table
 - Count of employee from each department
 - Each department with highest salary
@@ -42,3 +38,8 @@
 - Rotate an array by k times O(n)
 - ArrayList vs LinkedList 
 - Can we insert hetrogenous element in ArrayList (like int,char,string at a time)
+
+
+<div align="right">
+    <b><a href="# O___ni"> ↥ back to top</a></b>
+</div>
