@@ -63,6 +63,11 @@
 - Diagonal traversal of binary tree
 - Maximum path sum https://www.youtube.com/watch?v=Jz-S6gnmC_4&ab_channel=FitCoder
 
+
+<div align="right">
+    <b><a href="#"> ↥ back to top</a></b>
+</div>
+
 # From Dhanajay
 
 - longest palindrome in a string
@@ -147,6 +152,10 @@ suppose you have the sun some of the configuration are same and some of the conf
 - Lru cache implementation.
 - Two threadpool is there how to execute thread from the first pool then thread from second poll.
 
+<div align="right">
+    <b><a href="#"> ↥ back to top</a></b>
+</div>
+
 - Implement arrayblocking queue but when queue is full dump the data in some place and make queue empty do code for this
 Asked alot of things about threads.
 
@@ -193,9 +202,13 @@ https://docs.jboss.org/jbossas/guides/webguide/r2/en/html/ch06.html
 https://learning.oreilly.com/videos/robotic-process-automation/9781789139488/9781789139488-video1_2/
 http://tutorials.jenkov.com/java-concurrency/index.html
 
+   
+<div align="right">
+    <b><a href="#"> ↥ back to top</a></b>
+</div>
   
 *********Multhithreading********************
-1. Custome blocking queue
+1. Custom blocking queue
 2. custom threadpool executor
 
 
