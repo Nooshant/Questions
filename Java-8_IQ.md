@@ -1,3 +1,30 @@
+
+/**
+     * If the length of an array to be sorted is less than this
+     * constant, Quicksort is used in preference to merge sort.
+     */
+    private static final int QUICKSORT_THRESHOLD = 286;
+
+    /**
+     * If the length of an array to be sorted is less than this
+     * constant, insertion sort is used in preference to Quicksort.
+     */
+    private static final int INSERTION_SORT_THRESHOLD = 47;
+
+    /**
+     * If the length of a byte array to be sorted is greater than this
+     * constant, counting sort is used in preference to insertion sort.
+     */
+    private static final int COUNTING_SORT_THRESHOLD_FOR_BYTE = 29;
+
+    /**
+     * If the length of a short or char array to be sorted is greater
+     * than this constant, counting sort is used in preference to Quicksort.
+     */
+    private static final int COUNTING_SORT_THRESHOLD_FOR_SHORT_OR_CHAR = 3200;
+
+
+
 # Java 8 Interview Questions and Answers
 
 ## Q. What are the important features of Java 8 release?
