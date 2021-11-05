@@ -18,8 +18,21 @@
 - https://dzone.com/articles/design-patterns-for-microservices (**What is Microservices Design pattern ?**)
 
 # O___ni
+
 1. If tree is not BST then make the BST 
 2. Max sum of Array (Kadance Algo)
 3. String Combination
 4. Array 0's and 1's in linear time complexity
 5. Difference between Hashtable & HashMap
+
+# 
+
+- 2nd/nth highest salary from employee table
+- Count of employee from each department
+- Each department with highest salary
+
+# 
+
+- Combination of an string
+- Rotate an array by k times O(n)
+- 
