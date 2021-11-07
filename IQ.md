@@ -213,7 +213,8 @@ https://docs.spring.io/spring-framework/docs/3.0.x/spring-framework-reference/ht
 - What is the significance of serialization and deserialization
 - Common problem in Serialization
 - Deadlock and Race Condition
-- How to create Schemas
+- How to create Schemas 
+  `CREATE SCHEMA AUTHORIZATION user_name [ schema_element [ ... ] ]`
 - What is cache and how many cache are there in hibernate? Explain when to use which one.
 - Design a Branch and Bank schemas and Table. At the end, write a query to fetch all the Bank using IFSC code.
 - Count equals sum from array DP problem
