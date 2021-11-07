@@ -303,6 +303,10 @@ configuration metadata from XML, Java annotations, and/or Java code in the confi
 
 - how to design microservices and before implementation
 ```
+<div align="right">
+    <b><a href="#">↥ back to top</a></b>
+</div>
+	
 Think of something like no. of MCs, in that case, need to have 
 -> config-server to centralized the configuration,  @EnableConfigServer
 -> registry and discovery-service(Eureka-server), @EnableEurekaServer in main class
@@ -315,6 +319,9 @@ Think of something like no. of MCs, in that case, need to have
 -> Zipkin and sleuth for tracing the log (traceID, SpanId, logId)
 ```
 - What is Atomic in Thread.
+	``
+	Atomic types are types that encapsulate a value whose access is guaranteed to not cause data races and can be used to synchronize memory accesses among different threads.
+	``
 - What is ThreadLocal?  https://www.geeksforgeeks.org/java-lang-threadlocal-class-java/
 - ConcurrentHashMap working like how many write operation can be performed parallel. https://itsromiljain.medium.com/curious-case-of-concurrenthashmap-90249632d335
 - ReentrantWriteLock and ReentrantReadLock how does it work have sample code to see is there any problem in that.
@@ -344,6 +351,10 @@ public static ExecutorService newCachedThreadPool() {
 	... shutdownNow() attempts to stop all actively executing tasks, halts the processing of waiting tasks, and returns
 	a list of the tasks that were awaiting execution.
 	```
+<div align="right">
+    <b><a href="#">↥ back to top</a></b>
+</div>	
+
 - Optional in Java-8
 - Requirement
      - Have 5 doors and single key for all these door.
