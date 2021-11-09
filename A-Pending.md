@@ -17,6 +17,7 @@
 
 - https://dzone.com/articles/design-patterns-for-microservices (**What is Microservices Design pattern ?**)
 - https://howtodoinjava.com/design-patterns/behavioral/observer-design-pattern/ (**Observer Design Pattern**)
+- https://dzone.com/articles/a-guide-to-spring-framework-annotations (**all spring annotation**)
 
 # O___ni
 
