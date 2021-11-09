@@ -16,6 +16,7 @@
 - https://github.com/learning-zone/devops-interview-questions#readme (**DevOps IQ**)
 
 - https://dzone.com/articles/design-patterns-for-microservices (**What is Microservices Design pattern ?**)
+- https://howtodoinjava.com/design-patterns/behavioral/observer-design-pattern/ (**Observer Design Pattern**)
 
 # O___ni
 
