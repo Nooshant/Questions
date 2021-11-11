@@ -399,7 +399,8 @@ public static ExecutorService newCachedThreadPool() {
     <b><a href="#">↥ back to top</a></b>
 </div>
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~	
+*******************************************
+	
 - What is TDD and BDD
 - What is CORS in springboot
 - @Component vs @Bean
