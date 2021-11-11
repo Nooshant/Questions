@@ -398,3 +398,24 @@ public static ExecutorService newCachedThreadPool() {
 <div align="right">
     <b><a href="#">↥ back to top</a></b>
 </div>
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~	
+- What is TDD and BDD
+- What is CORS in springboot
+- @Component vs @Bean
+- Singleton Design Pattern
+- Observer Design Pattern
+- Write one Controller class in springboot
+- @RequestMapping vs @GetMapping
+- Double check mechanism
+- Abstract Factory design pattern
+- Write Junit for Factory design pattern to test the method.
+- @Transation related 
+- Pessimestic vs Optimistic lock
+- What is Indexing and type of Indexing
+- How to create a method to fetch all the details in sorting order in JPA
+- How to design database table for @ManyToMany and @ManyToOne mapping
+- Wrtie a Entity class for @ManyToOne relationship.
+- Which IOC container will be created from SpringBoot
+- How to handle transaction for distributed environment.
+
