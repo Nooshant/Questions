@@ -55,11 +55,13 @@ public class ExceptionResponse {
 
 - ReentrantLock key features as per this article
 
-> Ability to lock interruptibly.
+```
+Ability to lock interruptibly.
 Ability to timeout while waiting for lock.
 Power to create fair lock.
 API to get list of waiting thread for lock.
 Flexibility to try for lock without blocking.
+```
 
 - Using multiple databases in a single transaction
 
