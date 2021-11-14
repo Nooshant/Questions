@@ -56,16 +56,15 @@ Update : A candidate key is a unique key that can be used as a primary key. Comp
 ![image](https://user-images.githubusercontent.com/29571875/141671818-88e41061-9a57-48f6-9402-d035d1436c53.png)
 
 - To fetch the 2nd lasrgest salary of employee
-   ``select salary from employee order by salary desc limit 1 offset 1;``
+   ```select salary from employee order by salary desc limit 1 offset 1;```
   limit : what is limit to show in the result;
   offset: from which row has to start fetching data.
   
 - maximum salary from each department
- ``select department.name, max(Employee.salary) from Employee inner join department on Department.DeptId = Employee.DeptId group by Employee.DeptId;``
+ ```select department.name, max(Employee.salary) from Employee inner join department on Department.DeptId = Employee.DeptId group by Employee.DeptId;```
  
 - Count of employee in each department
   ```
   select department.deptid, department.name, count(*) as 'number of employees' from Employee 
-inner join department on Department.DeptId = Employee.DeptId where Employee.DeptId is not null group by department.name;
-
+  inner join department on Department.DeptId = Employee.DeptId where Employee.DeptId is not null group by department.name;
   ```
