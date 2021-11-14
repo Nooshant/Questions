@@ -412,7 +412,7 @@ public static ExecutorService newCachedThreadPool() {
 *******************************************
 	
 - What is TDD and BDD
-- What is CORS in springboot
+- What is CQRS in springboot
 - @Component vs @Bean
 - Singleton Design Pattern
 - Observer Design Pattern
@@ -421,7 +421,7 @@ public static ExecutorService newCachedThreadPool() {
 - Double check mechanism
 - Abstract Factory design pattern
 - Write Junit for Factory design pattern to test the method.
-- @Transation related 
+- @Transaction related 
 - Pessimestic vs Optimistic lock
 - What is Indexing and type of Indexing
 - How to create a method to fetch all the details in sorting order in JPA
