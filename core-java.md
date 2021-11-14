@@ -1,3 +1,9 @@
+# Exception Class Hierarchy
+
+![image](https://user-images.githubusercontent.com/29571875/141673284-7baf9889-844e-4f43-9912-89c1bd66cc91.png)
+
+
+
 # Fail-Fast
 
 A fail-fast iterator does not allow modifications to the Collection it traverses; this means, that it will throw out ConcurrentModificationException
