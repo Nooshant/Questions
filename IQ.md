@@ -117,7 +117,11 @@ public class NestedStaticSyncDemo {
 	}
 }
  ```
-- Callable, Future, CountDownLatch https://www.geeksforgeeks.org/callable-future-java/ 
+- Callable, Future, CountDownLatch https://www.geeksforgeeks.org/callable-future-java/
+```
+CountDownLatch is a concurrency construct that allows one or more threads to wait for a given set of operations to complete
+```
+
 - How to make a class immutable  which have Employee and Address class as attribute.
 ```
 public class Employee{
