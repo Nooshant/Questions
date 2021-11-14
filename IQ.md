@@ -428,6 +428,9 @@ public static ExecutorService newCachedThreadPool() {
 - Overriding vs Overloading
 - What is dependency management in springboot
 - How to scale the microservices ?
+- what is actuator ?
+- What is Eureka 
+- How to one microservices would know about the failure ?
 
 <div align="right">
     <b><a href="#">↥ back to top</a></b>
