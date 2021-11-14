@@ -1,9 +1,12 @@
 
 **Optimistic Lock**
+
 ``
 optimistic locking is based on detecting changes on entities by checking their version attribute. If any concurrent update takes place, OptmisticLockException occurs. After that, we can retry updating the data.
 ``
+
 **Pessimistic Lock**
+
 ``
 pessimistic locking mechanism involves locking entities on the database level.
 
