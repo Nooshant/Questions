@@ -40,4 +40,8 @@ WHERE 2 = (
 
 Update : A candidate key is a unique key that can be used as a primary key. Composite key is a key of two or more attributes that uniquely identifies the row. A key is a set of columns that can be used to uniquely identify each row within a table
  
+ # Primary vs Unique key
+ 
+- Primary key will not accept NULL values whereas Unique key can accept NULL values.
+- A table can have only one primary key whereas there can be multiple unique key on a table.
  
