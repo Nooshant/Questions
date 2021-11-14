@@ -1,15 +1,15 @@
 
 **Optimistic Lock**
-```
+``
 optimistic locking is based on detecting changes on entities by checking their version attribute. If any concurrent update takes place, OptmisticLockException occurs. After that, we can retry updating the data.
-```
+``
 **Pessimistic Lock**
-```
+``
 pessimistic locking mechanism involves locking entities on the database level.
 
 Each transaction can acquire a lock on data. As long as it holds the lock, no transaction can read, delete or make any updates on the locked data. 
 We can presume that using pessimistic locking may result in deadlocks. However, it ensures greater integrity of data than optimistic locking.
-```
+``
 
 
 - If you are using Hibernate's proprietary API, you'll need the `hibernate.cfg.xml`. If you are using JPA i.e. Hibernate EntityManager, you'll need `the persistence.xml`.
