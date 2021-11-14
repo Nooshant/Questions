@@ -312,11 +312,11 @@ configuration metadata from XML, Java annotations, and/or Java code in the confi
 ```
 
 - how to design microservices and before implementation
-```
-<div align="right">
+	
+	<div align="right">
     <b><a href="#">↥ back to top</a></b>
 </div>
-	
+```
 Think of something like no. of MCs, in that case, need to have 
 -> config-server to centralized the configuration,  @EnableConfigServer
 -> registry and discovery-service(Eureka-server), @EnableEurekaServer in main class
