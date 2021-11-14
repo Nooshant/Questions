@@ -1,3 +1,29 @@
+# Add spring-boot-starter-jetty dependency
+
+
+```
+<dependency>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter-web</artifactId>
+    <exclusions>
+        <exclusion>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-tomcat</artifactId>
+        </exclusion>
+    </exclusions>
+</dependency>
+<dependency>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter-jetty</artifactId>
+</dependency>
+```
+
+# what is dependencymanagement in springboot
+https://stackoverflow.com/questions/46984069/why-is-spring-boot-dependencies-in-dependencymanagement
+
+UTF-8 source encoding. A Dependency Management section, inherited from the spring-boot-dependencies pom, that manages the versions of
+common dependencies. This dependency management lets you omit `<version>` tags for those dependencies when used in your own pom.
+
 # LOG4J
 
 A Log4J Alternative
