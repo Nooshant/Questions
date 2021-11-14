@@ -12,6 +12,7 @@
 - https://www.interviewbit.com/rest-api-interview-questions/  (Restful Webservices)
 - https://opendsa-server.cs.vt.edu/ODSA/Books/CS2/html/HeapMem.html  (Heap Memory allocation in GIF)
 - https://dzone.com/articles/spring-boot-transactions-tutorial-understanding-tr (**@Transactional Related**)
+- http://adnjavainterview.blogspot.com/2018/02/hibernate-jpa-annotations-with.html (**Jpa Annotation**)
 
 # Questions:
 
