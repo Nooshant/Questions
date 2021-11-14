@@ -420,4 +420,11 @@ public static ExecutorService newCachedThreadPool() {
 - Wrtie a Entity class for @ManyToOne relationship.
 - Which IOC container will be created from SpringBoot
 - How to handle transaction for distributed environment.
+- TreeMap vs HashMap
+- HashMap vs ConcurrentHashMap
+- How to convert monolith architecture to Microservices architecture.
+- What is distributed transaction
+- Interface vs Abstract 
+- Overriding vs Overloading
+- What is dependency management in springboot
 
