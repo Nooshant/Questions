@@ -32,3 +32,12 @@ WHERE 2 = (
  
  For more info... https://www.geeksforgeeks.org/sql-query-to-find-second-largest-salary/
  
+ # Composite Key vs Candidate key 
+ 
+**Candidate Key**: A nominee for primary key field is known as candidate key.
+
+**Composite Key**: Creating more than one primary key is jointly known as composite key.
+
+Update : A candidate key is a unique key that can be used as a primary key. Composite key is a key of two or more attributes that uniquely identifies the row. A key is a set of columns that can be used to uniquely identify each row within a table
+ 
+ 
