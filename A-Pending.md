@@ -17,6 +17,8 @@
 
 - https://dzone.com/articles/design-patterns-for-microservices (**What is Microservices Design pattern ?**)
 - https://howtodoinjava.com/design-patterns/behavioral/observer-design-pattern/ (**Observer Design Pattern**)
+- https://javarevisited.blogspot.com/2011/12/observer-design-pattern-java-example.html#axzz7CHHESBhR
+
 - https://dzone.com/articles/a-guide-to-spring-framework-annotations (**all spring annotation**)
 - https://developers.redhat.com/blog/2018/10/01/patterns-for-distributed-transactions-within-a-microservices-architecture#possible_solutions 
     (**Distributed transaction in MCs**) 
