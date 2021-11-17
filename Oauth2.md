@@ -14,3 +14,10 @@ https://darutk.medium.com/oauth-access-token-implementation-30c2e8b90ff0
 - Apache CXF, Spring Security are the different open source provide the Outh.
 - 
 
+
+#
+- In JWT Oauth, there are two things
+    - Authentication -> Using username/password or secret-id to validate whether it is valid user or not.
+    - Authorization -> It means what all access can be provided to user if they are valid from authentication if ok then provide a JWT token with refresh time
+
+First it validate the username/password from LDAP and then if ok then route it for Authorization.
