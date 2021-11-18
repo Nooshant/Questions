@@ -317,6 +317,7 @@ configuration metadata from XML, Java annotations, and/or Java code in the confi
 	<div align="right">
     <b><a href="#">↥ back to top</a></b>
 </div>
+	
 ```
 Think of something like no. of MCs, in that case, need to have 
 -> config-server to centralized the configuration,  @EnableConfigServer
@@ -329,6 +330,7 @@ Think of something like no. of MCs, in that case, need to have
 	any services is down to show the current message to User.
 -> Zipkin and sleuth for tracing the log (traceID, SpanId, logId)
 ```
+	
 - What is Atomic in Thread.
 	``
 	Atomic types are types that encapsulate a value whose access is guaranteed to not cause data races and can be used to synchronize memory accesses among different threads.
