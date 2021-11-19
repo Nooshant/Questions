@@ -52,3 +52,11 @@
 <div align="right">
     <b><a href="#"> ↥ back to top</a></b>
 </div>
+
+- Pull vs Fetch in git
+- How to secure your rest api ?
+- How to validate the token at resource end whether it is correct one or not.
+- What if during the api call over the network, the token has been modified. How will you validate it.
+- How to handle the multi-microservices call transation ?
+- How to move from head to particular commits.
+
