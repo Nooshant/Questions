@@ -22,6 +22,7 @@
 - https://dzone.com/articles/a-guide-to-spring-framework-annotations (**all spring annotation**)
 - https://developers.redhat.com/blog/2018/10/01/patterns-for-distributed-transactions-within-a-microservices-architecture#possible_solutions 
     (**Distributed transaction in MCs**) 
+- https://itzone.com.vn/en/article/adapter-design-pattern-in-java/ (**Adapter design pattern**)
 
 # O___ni
 
