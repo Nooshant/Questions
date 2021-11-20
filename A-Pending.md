@@ -24,6 +24,7 @@
     (**Distributed transaction in MCs**) 
     - https://www.youtube.com/watch?v=6O5iJ7PKUhs&ab_channel=JavaTechie **Example Implementation**
 - https://itzone.com.vn/en/article/adapter-design-pattern-in-java/ (**Adapter design pattern**)
+- https://medium.com/dataseries/public-claims-and-how-to-validate-a-jwt-1d6c81823826
 
 # O___ni
 
