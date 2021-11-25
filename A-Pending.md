@@ -64,4 +64,5 @@
 - How to move from head to particular commits.
 - How does "Compare And Set" in AtomicInteger works https://stackoverflow.com/questions/32634280/how-does-compare-and-set-in-atomicinteger-works
 - Write a query to delete the duplicate entry from database and kept only one entry.
+- Minimum dependency for springboot application
 
