@@ -62,4 +62,6 @@
 - What if during the api call over the network, the token has been modified. How will you validate it.
 - How to handle the multi-microservices call transation ?
 - How to move from head to particular commits.
+- How does "Compare And Set" in AtomicInteger works https://stackoverflow.com/questions/32634280/how-does-compare-and-set-in-atomicinteger-works
+- Write a query to delete the duplicate entry from database and kept only one entry.
 
