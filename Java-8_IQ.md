@@ -1,4 +1,6 @@
 - **Latest Feature in Java 8**  https://www.oracle.com/java/technologies/javase/8-whats-new.html
+
+```
     /**
      * If the length of an array to be sorted is less than this
      * constant, Quicksort is used in preference to merge sort.
@@ -22,7 +24,7 @@
      * than this constant, counting sort is used in preference to Quicksort.
      */
     private static final int COUNTING_SORT_THRESHOLD_FOR_SHORT_OR_CHAR = 3200;
-
+```
 
 
 # Java 8 Interview Questions and Answers
