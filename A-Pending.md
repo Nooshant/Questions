@@ -26,6 +26,7 @@
 - https://itzone.com.vn/en/article/adapter-design-pattern-in-java/ (**Adapter design pattern**)
 - https://medium.com/dataseries/public-claims-and-how-to-validate-a-jwt-1d6c81823826 **Auth-Token**
 - https://levelup.gitconnected.com/completablefuture-a-new-era-of-asynchronous-programming-86c2fe23e246 **CompletableFuture**
+- https://medium.com/analytics-vidhya/unlock-the-power-of-reentrant-lock-in-java-d55ae9135443
 
 # O___ni
 
