@@ -52,19 +52,32 @@
 - Find longest substring from a string contains all the distinct character.
 - Maximum sequence from an unsorted array `[9,34,6,17,16,8,7]` and here it is `4` because `[6,7,8,9]`
  
-
-
 <div align="right">
     <b><a href="#"> ↥ back to top</a></b>
 </div>
 
 - Pull vs Fetch in git
 - How to secure your rest api ?
-- How to validate the token at resource end whether it is correct one or not.
-- What if during the api call over the network, the token has been modified. How will you validate it.
+- How to validate the token at resource end whether it is correct one or not. *****
+- What if during the api call over the network, the token has been modified. How will you validate it. **
 - How to handle the multi-microservices call transation ?
 - How to move from head to particular commits.
 - How does "Compare And Set" in AtomicInteger works https://stackoverflow.com/questions/32634280/how-does-compare-and-set-in-atomicinteger-works
 - Write a query to delete the duplicate entry from database and kept only one entry.
 - Minimum dependency for springboot application
 
+
+<div align="right">
+    <b><a href="#"> ↥ back to top</a></b>
+</div>
+
+
+- Deep copy and shallow copy with scenario.
+- Strategy design pattern
+- Solid principle
+- clone method
+- k frequent element from an array
+- Search pattern in provided string like str="FooBar" pattern="FB" or "FiB" or "FooB"
+- Move the zero without change the order of non-zero element.
+- Have number of car and want until and unless it doesn't have 5 passenger it should not start. Solve using multithreading.
+- Comparable and Comparator
