@@ -81,3 +81,5 @@
 - Move the zero without change the order of non-zero element.
 - Have number of car and want until and unless it doesn't have 5 passenger it should not start. Solve using multithreading.
 - Comparable and Comparator
+- AVL tree vs BST
+- what will the time complexity if last element is deleted in ArrayList and LinkedList
