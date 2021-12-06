@@ -83,3 +83,6 @@
 - Comparable and Comparator
 - AVL tree vs BST
 - what will the time complexity if last element is deleted in ArrayList and LinkedList
+- Print Spiral of matrix
+- Decode the string eg= "paypalishiring" and row = 4
+
